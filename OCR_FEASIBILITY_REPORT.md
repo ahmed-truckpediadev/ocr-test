@@ -16,6 +16,7 @@
   - [Approach 2: Tesseract.js OCR](#approach-2-tesseractjs-ocr)
   - [Approach 3: GPT-4o Vision API ⭐ Recommended](#approach-3-gpt-4o-vision-api--recommended)
   - [Approach 4: Hybrid (Tesseract + GPT-4o Text)](#approach-4-hybrid-tesseract--gpt-4o-text)
+  - [Approach 5: PaddleOCR (PP-OCRv5)](#approach-5-paddleocr-pp-ocrv5)
 - [Side-by-Side Comparison](#side-by-side-comparison)
 - [Accuracy by Field](#accuracy-by-field)
 - [Sample Outputs](#sample-outputs)
@@ -239,19 +240,68 @@ PDF → Image → Tesseract OCR → Raw text → GPT-4o (text model) → Structu
 
 ---
 
+### Approach 5: PaddleOCR (PP-OCRv5)
+
+**How it works:** Open-source OCR from Baidu (75k+ GitHub stars). Uses deep learning models for text detection + recognition. Python-based.
+
+```
+PDF → pdftoppm (300 DPI PNG) → PaddleOCR (detection + recognition) → Raw text
+```
+
+#### Results
+
+| Invoice             | Pages | Text Boxes | Avg Confidence | Time  | Key Observations                           |
+| ------------------- | ----- | ---------- | -------------- | ----- | ------------------------------------------ |
+| Samsara Work Order  | 1     | 87         | **98.8%**      | 15.8s | All fields readable, excellent quality     |
+| Take Off Tire       | 1     | 117        | **96.5%**      | 18.7s | Dollar amounts ✅, dates ✅, no VIN on doc |
+| Thermo King         | 1     | 118        | **90.8%** ✅   | 24.6s | **Huge improvement over Tesseract (55%)**  |
+| TA Truck Service    | 1     | 211        | **91.9%**      | 39.7s | Dense invoice, good extraction             |
+| Bauer Built Tire    | 1     | 74         | **97.8%**      | 13.4s | Clean output, all amounts correct          |
+| Truck Center (2 pg) | 2     | 181        | **95.2%**      | 44.1s | VIN ✅, costs ✅, multi-page handled well  |
+| MCT Carrier (2 pg)  | 2     | 310        | **96.4%**      | 54.8s | VIN ✅, service details ✅, dates ✅       |
+
+#### PaddleOCR vs Tesseract — Direct Comparison
+
+| Invoice          | Tesseract Confidence | PaddleOCR Confidence | Improvement |
+| ---------------- | -------------------- | -------------------- | ----------- |
+| Samsara          | 91%                  | **98.8%**            | +7.8%       |
+| Take Off Tire    | 76%                  | **96.5%**            | +20.5%      |
+| Thermo King      | 55%                  | **90.8%**            | **+35.8%**  |
+| TA Truck Service | 77%                  | **91.9%**            | +14.9%      |
+| Bauer Built      | 91%                  | **97.8%**            | +6.8%       |
+| Truck Center     | 81%                  | **95.2%**            | +14.2%      |
+| MCT Carrier      | 90%                  | **96.4%**            | +6.4%       |
+
+> PaddleOCR outperforms Tesseract on every single invoice. The Thermo King invoice (colored/shaded background) sees a **+35.8%** improvement.
+
+#### Key Considerations
+
+- **Language:** Python only — would require a Python microservice or subprocess call from our Node.js backend
+- **Speed:** 13-55 seconds per invoice on CPU (MacBook M1), slower than Tesseract (1-6s) due to deep learning inference
+- **Output:** Raw text only — still needs GPT-4o to structure into JSON fields
+- **Model size:** ~21MB (mobile models), reasonable for deployment
+- **No API cost:** Fully open-source, runs locally
+
+#### Verdict
+
+> ⚠️ **Excellent OCR quality but adds architectural complexity.** Significantly better than Tesseract (especially on colored backgrounds), but still produces raw text that needs GPT-4o for structuring. The Python dependency and slower speed make it less practical than GPT-4o Vision, which does OCR + structuring in one step.
+
+---
+
 ## Side-by-Side Comparison
 
-| Criteria                | pdf-parse   | Tesseract OCR        | GPT-4o Vision ⭐   | Hybrid            |
-| ----------------------- | ----------- | -------------------- | ------------------ | ----------------- |
-| **Digital PDFs**        | ✅ Perfect  | ✅ Great             | ✅ Great           | ✅ Great          |
-| **Scanned PDFs**        | ❌ Fails    | ⚠️ Variable          | ✅ Great           | ⚠️ Variable       |
-| **Colored/shaded docs** | ❌ Fails    | ❌ Poor (55%)        | ✅ Handles well    | ❌ Poor           |
-| **Multi-page invoices** | ❌ Fails    | ⚠️ Text only         | ✅ Structured JSON | ⚠️ Depends on OCR |
-| **VIN extraction**      | N/A         | ⚠️ Sometimes garbled | ✅ 86% accurate    | ⚠️ 57% accurate   |
-| **Processing time**     | <100ms      | 1-6s/page            | 7-16s/invoice      | 4-9s/invoice      |
-| **Cost per invoice**    | Free        | Free                 | ~$0.01-0.03        | ~$0.005-0.01      |
-| **Requires OCR step**   | No          | Yes                  | No (built-in)      | Yes               |
-| **Structured output**   | ❌ Raw text | ❌ Raw text          | ✅ JSON            | ✅ JSON           |
+| Criteria                | pdf-parse   | Tesseract OCR        | GPT-4o Vision ⭐   | Hybrid            | PaddleOCR       |
+| ----------------------- | ----------- | -------------------- | ------------------ | ----------------- | --------------- |
+| **Digital PDFs**        | ✅ Perfect  | ✅ Great             | ✅ Great           | ✅ Great          | ✅ Great        |
+| **Scanned PDFs**        | ❌ Fails    | ⚠️ Variable          | ✅ Great           | ⚠️ Variable       | ✅ Great        |
+| **Colored/shaded docs** | ❌ Fails    | ❌ Poor (55%)        | ✅ Handles well    | ❌ Poor           | ✅ Good (90.8%) |
+| **Multi-page invoices** | ❌ Fails    | ⚠️ Text only         | ✅ Structured JSON | ⚠️ Depends on OCR | ⚠️ Text only    |
+| **VIN extraction**      | N/A         | ⚠️ Sometimes garbled | ✅ 86% accurate    | ⚠️ 57% accurate   | ✅ Good         |
+| **Processing time**     | <100ms      | 1-6s/page            | 7-16s/invoice      | 4-9s/invoice      | 13-55s/invoice  |
+| **Cost per invoice**    | Free        | Free                 | ~$0.01-0.03        | ~$0.005-0.01      | Free            |
+| **Requires OCR step**   | No          | Yes                  | No (built-in)      | Yes               | Yes             |
+| **Structured output**   | ❌ Raw text | ❌ Raw text          | ✅ JSON            | ✅ JSON           | ❌ Raw text     |
+| **Language/Runtime**    | Node.js     | Node.js              | Node.js            | Node.js           | ⚠️ Python only  |
 
 ---
 
@@ -332,6 +382,8 @@ Based on GPT-4o pricing (`$2.50/1M input tokens`, `$10/1M output tokens`):
 ## Recommendation
 
 ### ✅ Use **GPT-4o Vision API** (Approach 3) with **pdf-parse fallback**
+
+> **Note on PaddleOCR:** While PaddleOCR showed significantly better OCR quality than Tesseract (+6-36% improvement), it still only produces raw text. You'd still need GPT-4o to structure the output — making it a more complex pipeline (Python + Node.js + OpenAI) for marginal benefit over GPT-4o Vision which does OCR + structuring in one API call. PaddleOCR could be a good **fallback option** if we ever need to move away from OpenAI.
 
 **Pipeline:**
 
@@ -442,6 +494,9 @@ node ocr-test/test-openai-vision.js
 
 # Approach 4: Hybrid (Tesseract + GPT-4o)
 node ocr-test/test-hybrid.js
+
+# Approach 5: PaddleOCR
+source ocr-test/paddle-env/bin/activate && python ocr-test/test-paddleocr-v2.py
 ```
 
 ---
