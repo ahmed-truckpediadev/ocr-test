@@ -1,6 +1,6 @@
-# Rate Confirmation PDF Extraction: Text Pipeline vs GPT-4o Vision
+x# Rate Confirmation PDF Extraction: Text Pipeline vs GPT-4o Vision
 
-**Date:** July 2025  
+**Date:** 17 April 2026  
 **Tested by:** Ahmed Ali  
 **Sample Size:** 12 rate con PDFs from production (provided by Ana)
 
