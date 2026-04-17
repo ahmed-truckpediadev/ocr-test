@@ -1,0 +1,3566 @@
+[
+  {
+    "file": "31830597_rate_agreement_doc_1759846054032.pdf",
+    "text": {
+      "status": "SUCCESS",
+      "time": 11269,
+      "tokens": {
+        "input": 3972,
+        "output": 946,
+        "total": 4918
+      },
+      "cost": 0.019389999999999998,
+      "fields": {
+        "loadNumber": "31830597",
+        "payerInfo": "",
+        "customer": {
+          "companyName": "",
+          "accountsPayableEmail": "",
+          "billingAddress": ""
+        },
+        "broker": {
+          "name": "PLS",
+          "address": "",
+          "emailForInvoices": "freightbills@plslogistics.com",
+          "phone": ""
+        },
+        "carrier": {
+          "name": "C&J CONSTRUCTION SOLUTIONS LLC",
+          "mcNumber": "",
+          "usdot": "3774009",
+          "phone": "3106008527"
+        },
+        "references": {
+          "referenceId": "31830597",
+          "internalReference": "",
+          "poNumber": "",
+          "bolNumber": "",
+          "quoteDueBy": null,
+          "shipperRef": "",
+          "customerPo": "",
+          "orderNumber": "",
+          "releaseNumber": "",
+          "rateConNumber": "",
+          "pickupNumber": "",
+          "deliveryNumber": "",
+          "orderType": "",
+          "serviceType": ""
+        },
+        "equipment": {
+          "trailerType": "Van",
+          "temperatureRequired": null,
+          "temperatureMode": null,
+          "lengthFt": null
+        },
+        "distanceMiles": null,
+        "shippers": [
+          {
+            "name": "ORIGINAL BRANDS C/O Junction Collaborative Transports",
+            "address": "100 W Victoria St, Long Beach, California, 90805, USA",
+            "date": "2025-10-07",
+            "time": "11:00",
+            "endDate": "2025-10-07",
+            "endTime": "11:00",
+            "appointmentType": "APPT",
+            "notes": "",
+            "contact": "",
+            "phone": "3105377730",
+            "contactEmail": "",
+            "pickupNumber": "TRAILER # 002",
+            "poNumber": "",
+            "releaseNumber": "",
+            "commodities": [
+              {
+                "label": "Skidded Apparel",
+                "description": "Skidded Apparel",
+                "sku": "",
+                "qty": null,
+                "qtyUnit": "",
+                "alternateQty": null,
+                "alternateQtyUnit": "",
+                "weight": 20000,
+                "weightUnit": "lbs",
+                "length": null,
+                "width": null,
+                "height": null,
+                "cube": null,
+                "notes": ""
+              }
+            ]
+          }
+        ],
+        "receivers": [
+          {
+            "name": "Ross Distribution Center",
+            "address": "3404 Indiana Ave, Perris, California, 92571, USA",
+            "date": "2025-10-07",
+            "time": "12:00",
+            "endDate": "2025-10-07",
+            "endTime": "17:00",
+            "appointmentType": "APPT",
+            "notes": "**CARRIER MUST CONTACT \"Tms.Administrators@ros.com\" FOR UPDATES ON TRAILER RECOVERY**",
+            "contact": "",
+            "phone": "",
+            "contactEmail": ""
+          }
+        ],
+        "commodities": [],
+        "dispatcher": {
+          "name": "Roberto Milli",
+          "phone": "3106008527",
+          "email": "cjconstsol@outlook.com",
+          "notes": ""
+        },
+        "driver": {
+          "name": "",
+          "phone": "",
+          "email": "",
+          "truckNumber": "",
+          "trailerNumber": "002"
+        },
+        "charges": {
+          "linehaul": 635,
+          "fuel": null,
+          "accessorials": null,
+          "total": 635,
+          "currency": "USD",
+          "items": [
+            {
+              "name": "Carrier base",
+              "amount": 635
+            }
+          ]
+        },
+        "instructions": {
+          "pickup": "PICKUP APPT ON 10/7 @ 11AM",
+          "general": [
+            "**DROP TRAILER**"
+          ],
+          "trackingRequired": null,
+          "trackingPlatform": null,
+          "documentsEmail": ""
+        },
+        "collaboratorEmails": [
+          "hibbsgroup@plslogistics.com",
+          "apsupport@plslogistics.com",
+          "tms.administrators@ros.com"
+        ]
+      }
+    },
+    "vision": {
+      "status": "SUCCESS",
+      "time": 25117,
+      "tokens": {
+        "input": 2879,
+        "output": 1058,
+        "total": 3937
+      },
+      "cost": 0.0177775,
+      "fields": {
+        "loadNumber": "31830597",
+        "payerInfo": "",
+        "customer": {
+          "companyName": "",
+          "accountsPayableEmail": "",
+          "billingAddress": ""
+        },
+        "broker": {
+          "name": "PLS Logistics Services",
+          "address": "",
+          "emailForInvoices": "hibbsgroup@plslogistics.com",
+          "phone": "8137398183"
+        },
+        "carrier": {
+          "name": "C&J Construction Solutions LLC",
+          "mcNumber": "",
+          "usdot": "3774009",
+          "phone": "3106008527"
+        },
+        "references": {
+          "referenceId": "",
+          "internalReference": "",
+          "poNumber": "",
+          "bolNumber": "",
+          "quoteDueBy": null,
+          "shipperRef": "",
+          "customerPo": "",
+          "orderNumber": "",
+          "releaseNumber": "",
+          "rateConNumber": "",
+          "pickupNumber": "TRAILER # 002",
+          "deliveryNumber": "",
+          "orderType": "",
+          "serviceType": ""
+        },
+        "equipment": {
+          "trailerType": "Van",
+          "temperatureRequired": null,
+          "temperatureMode": null,
+          "lengthFt": 53
+        },
+        "distanceMiles": 75,
+        "shippers": [
+          {
+            "name": "Original Brands C/O Junction Collaborative Transports",
+            "address": "100 W Victoria St, Long Beach, California, 90805, USA",
+            "date": "2025-10-07",
+            "time": "11:00",
+            "endDate": "2025-10-07",
+            "endTime": "11:00",
+            "appointmentType": "By Appointment",
+            "notes": "",
+            "contact": "",
+            "phone": "3105377730",
+            "contactEmail": "",
+            "pickupNumber": "TRAILER # 002",
+            "poNumber": "",
+            "releaseNumber": "",
+            "commodities": [
+              {
+                "label": "",
+                "description": "Skidded Apparel",
+                "sku": "",
+                "qty": 541,
+                "qtyUnit": "CTNS",
+                "alternateQty": null,
+                "alternateQtyUnit": "",
+                "weight": 20000,
+                "weightUnit": "LB",
+                "length": null,
+                "width": null,
+                "height": null,
+                "cube": null,
+                "notes": ""
+              }
+            ]
+          }
+        ],
+        "receivers": [
+          {
+            "name": "Ross Distribution Center",
+            "address": "3404 Indiana Ave, Perris, California, 92571, USA",
+            "date": "2025-10-07",
+            "time": "12:00",
+            "endDate": "2025-10-07",
+            "endTime": "17:00",
+            "appointmentType": "By Appointment",
+            "notes": "Carrier must contact Tms.Administrators@ros.com for updates on trailer recovery",
+            "contact": "",
+            "phone": "",
+            "contactEmail": ""
+          }
+        ],
+        "commodities": [
+          {
+            "label": "",
+            "description": "Skidded Apparel",
+            "sku": "",
+            "qty": 541,
+            "qtyUnit": "CTNS",
+            "alternateQty": null,
+            "alternateQtyUnit": "",
+            "weight": 20000,
+            "weightUnit": "LB",
+            "length": null,
+            "width": null,
+            "height": null,
+            "cube": null,
+            "notes": ""
+          }
+        ],
+        "dispatcher": {
+          "name": "Roberto Milli",
+          "phone": "3106008527",
+          "email": "cjcjconstsol@outlook.com",
+          "notes": ""
+        },
+        "driver": {
+          "name": "",
+          "phone": "",
+          "email": "",
+          "truckNumber": "",
+          "trailerNumber": ""
+        },
+        "charges": {
+          "linehaul": 635,
+          "fuel": null,
+          "accessorials": null,
+          "total": 635,
+          "currency": "USD",
+          "items": [
+            {
+              "name": "Line Haul",
+              "amount": 635
+            }
+          ]
+        },
+        "instructions": {
+          "pickup": "Drop trailer. Pickup appt on 10/7 @ 11AM",
+          "general": [],
+          "trackingRequired": null,
+          "trackingPlatform": null,
+          "documentsEmail": "freightbills@plslogistics.com",
+          "collaboratorEmails": [
+            "hibbsgroup@plslogistics.com",
+            "tms.administrators@ros.com",
+            "cjcjconstsol@outlook.com"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "file": "41744 RATE COn.pdf",
+    "text": {
+      "status": "SUCCESS",
+      "time": 4524,
+      "tokens": {
+        "input": 6956,
+        "output": 424,
+        "total": 7380
+      },
+      "cost": 0.02163,
+      "fields": {
+        "loadNumber": "",
+        "payerInfo": "",
+        "customer": {
+          "companyName": "",
+          "accountsPayableEmail": "",
+          "billingAddress": ""
+        },
+        "broker": {
+          "name": "",
+          "address": "",
+          "emailForInvoices": "",
+          "phone": ""
+        },
+        "carrier": {
+          "name": "",
+          "mcNumber": "",
+          "usdot": "",
+          "phone": ""
+        },
+        "references": {
+          "referenceId": "",
+          "internalReference": "",
+          "poNumber": "",
+          "bolNumber": "",
+          "quoteDueBy": null,
+          "shipperRef": "",
+          "customerPo": "",
+          "orderNumber": "",
+          "releaseNumber": "",
+          "rateConNumber": "",
+          "pickupNumber": "",
+          "deliveryNumber": "",
+          "orderType": "",
+          "serviceType": ""
+        },
+        "equipment": {
+          "trailerType": "",
+          "temperatureRequired": null,
+          "temperatureMode": null,
+          "lengthFt": null
+        },
+        "distanceMiles": null,
+        "shippers": [],
+        "receivers": [],
+        "commodities": [],
+        "dispatcher": {
+          "name": "",
+          "phone": "",
+          "email": "",
+          "notes": ""
+        },
+        "driver": {
+          "name": "",
+          "phone": "",
+          "email": "",
+          "truckNumber": "",
+          "trailerNumber": ""
+        },
+        "charges": {
+          "linehaul": null,
+          "fuel": null,
+          "accessorials": null,
+          "total": null,
+          "currency": "USD",
+          "items": [
+            {
+              "name": "",
+              "amount": null
+            }
+          ]
+        },
+        "instructions": {
+          "pickup": "",
+          "general": [],
+          "trackingRequired": null,
+          "trackingPlatform": null,
+          "documentsEmail": ""
+        },
+        "collaboratorEmails": []
+      }
+    },
+    "vision": {
+      "status": "SUCCESS",
+      "time": 16796,
+      "tokens": {
+        "input": 1434,
+        "output": 1326,
+        "total": 2760
+      },
+      "cost": 0.016845,
+      "fields": {
+        "loadNumber": "41744",
+        "payerInfo": "",
+        "customer": {
+          "companyName": "",
+          "accountsPayableEmail": "",
+          "billingAddress": ""
+        },
+        "broker": {
+          "name": "JRI TRANS LLC",
+          "address": "8130 BAYMEADOWS WAY WEST, SUITE 104, JACKSONVILLE FL 32256, USA",
+          "emailForInvoices": "michael.jeffreys@jritrans.com",
+          "phone": "8883399555"
+        },
+        "carrier": {
+          "name": "TY & MO TRANSPORTATION INC.",
+          "mcNumber": "19937",
+          "usdot": "2983340",
+          "phone": "7702177495"
+        },
+        "references": {
+          "referenceId": "MSKU0660416",
+          "internalReference": "",
+          "poNumber": "",
+          "bolNumber": "",
+          "quoteDueBy": null,
+          "shipperRef": "MSKU0660416",
+          "customerPo": "",
+          "orderNumber": "",
+          "releaseNumber": "",
+          "rateConNumber": "",
+          "pickupNumber": "",
+          "deliveryNumber": "",
+          "orderType": "",
+          "serviceType": ""
+        },
+        "equipment": {
+          "trailerType": "40' 40 HIGH CUBE OW",
+          "temperatureRequired": null,
+          "temperatureMode": null,
+          "lengthFt": null
+        },
+        "distanceMiles": null,
+        "shippers": [
+          {
+            "name": "HANWHA ADVANCED MATERI",
+            "address": "251 GREAT VALLEY PKWY, WHITE GA 30184, USA",
+            "date": "2025-07-02",
+            "time": "13:00",
+            "endDate": "",
+            "endTime": "",
+            "appointmentType": null,
+            "notes": "Appt Notes: 7/2 @ 1300",
+            "contact": "",
+            "phone": "",
+            "contactEmail": "",
+            "pickupNumber": "",
+            "poNumber": "",
+            "releaseNumber": "",
+            "commodities": [
+              {
+                "label": "",
+                "description": "",
+                "sku": "",
+                "qty": 36,
+                "qtyUnit": "Pieces",
+                "alternateQty": null,
+                "alternateQtyUnit": "",
+                "weight": 49116,
+                "weightUnit": "Weight",
+                "length": null,
+                "width": null,
+                "height": null,
+                "cube": null,
+                "notes": ""
+              }
+            ]
+          }
+        ],
+        "receivers": [
+          {
+            "name": "GEORGIA PORT AUTHORITY",
+            "address": "2 MAIN ST, SAVANNAH GA 31408, USA",
+            "date": "2025-07-01",
+            "time": "",
+            "endDate": "",
+            "endTime": "",
+            "appointmentType": "AVAIL",
+            "notes": "",
+            "contact": "",
+            "phone": "",
+            "contactEmail": ""
+          }
+        ],
+        "commodities": [
+          {
+            "label": "",
+            "description": "",
+            "sku": "",
+            "qty": 36,
+            "qtyUnit": "Pieces",
+            "alternateQty": null,
+            "alternateQtyUnit": "",
+            "weight": 49116,
+            "weightUnit": "Weight",
+            "length": null,
+            "width": null,
+            "height": null,
+            "cube": null,
+            "notes": ""
+          }
+        ],
+        "dispatcher": {
+          "name": "MICHAEL JEFFREYS",
+          "phone": "7703437470",
+          "email": "michael.jeffreys@jritrans.com",
+          "notes": ""
+        },
+        "driver": {
+          "name": "",
+          "phone": "",
+          "email": "",
+          "truckNumber": "",
+          "trailerNumber": "MSKU0660416"
+        },
+        "charges": {
+          "linehaul": 1100,
+          "fuel": null,
+          "accessorials": null,
+          "total": 1270,
+          "currency": "USD",
+          "items": [
+            {
+              "name": "LINE HAUL RATE",
+              "amount": 1100
+            },
+            {
+              "name": "CHASSIS",
+              "amount": 70
+            },
+            {
+              "name": "OVERWEIGHT",
+              "amount": 100
+            }
+          ]
+        },
+        "instructions": {
+          "pickup": "",
+          "general": [
+            "ALL SHIPMENTS ARE SUBJECT TO COMPANY'S TERMS AND CONDITIONS PER SIGNED CARRIER AGREEMENT",
+            "PER DIEM: JRI TRANS WILL NOT BE RESPONSIBLE FOR PER DIEM IF THE CONTAINER IS NOT RETURNED BY NEXT BUSINESS DAY, ONE DAY AFTER DELIVERY DATE. PER DIEM AMOUNT WILL BE DEDUCTED FROM THE LOAD TOTAL, DUE TO CARRIER SERVICE FAILURE",
+            "IMPORTANT: AT NO TIME WILL JRI TRANS ACCEPT A SIGNED RATE CONFIRMATION AS PROOF OF DELIVERY FOR PAYMENT. RATE CONFIRMATION IS NOT TO BE USED AS POD",
+            "JRI TRANS WILL NOT PAY ANY INVOICES RECEIVED IN WHICH THE RATE CONFIRMATION I SIGNED AS THE POD",
+            "SIGNED POD AS WELL AS IN & OUT INTERCHANGES MUST BE RECEIVED WITH INVOICE IN ORDER TO PROCESS PAYMENT NO LATER THAN 48 HOURS AFTER DELIVERING SHIPMENT. FAILURE TO DO SO WILL BE NOT BE TOLERATED.",
+            "JRI TRANS WILL NOT BE RESPONSIBLE FOR PER DIEM WITHOUT WRITTEN CONSENT.",
+            "PER DIEM INVOICES MUST BE SENT WITHIN 30 DAYS OF ISSUE/INVOICE DATE FROM SSL.",
+            "JRI TRANS WILL NOT BE RESPONSIBLE FOR ANY PER DIEM BILLS SENT AFTER 30 DAYS OF INVOICE DATE FROM SSL."
+          ],
+          "trackingRequired": null,
+          "trackingPlatform": null,
+          "documentsEmail": ""
+        },
+        "collaboratorEmails": [
+          "michael.jeffreys@jritrans.com"
+        ]
+      }
+    }
+  },
+  {
+    "file": "AXLE RC CO TO TX   2384713.pdf",
+    "text": {
+      "status": "FAILED — No text extracted (scanned PDF)",
+      "time": 0,
+      "tokens": 0,
+      "cost": 0,
+      "fields": {}
+    },
+    "vision": {
+      "status": "SUCCESS",
+      "time": 23253,
+      "tokens": {
+        "input": 2964,
+        "output": 1054,
+        "total": 4018
+      },
+      "cost": 0.01795,
+      "fields": {
+        "loadNumber": "2384713",
+        "payerInfo": "",
+        "customer": {
+          "companyName": "",
+          "accountsPayableEmail": "",
+          "billingAddress": ""
+        },
+        "broker": {
+          "name": "Axle Logistics, LLC",
+          "address": "835 N Central Street, Knoxville, TN 37917, USA",
+          "emailForInvoices": "invoices@axlelogistics.com",
+          "phone": ""
+        },
+        "carrier": {
+          "name": "Sky Express LLC",
+          "mcNumber": "",
+          "usdot": "",
+          "phone": "(214) 500-8155"
+        },
+        "references": {
+          "referenceId": "",
+          "internalReference": "",
+          "poNumber": "",
+          "bolNumber": "189260694",
+          "quoteDueBy": null,
+          "shipperRef": "",
+          "customerPo": "",
+          "orderNumber": "2384713",
+          "releaseNumber": "",
+          "rateConNumber": "AXLL-2384713",
+          "pickupNumber": "",
+          "deliveryNumber": "",
+          "orderType": "",
+          "serviceType": ""
+        },
+        "equipment": {
+          "trailerType": "Van (DAT)",
+          "temperatureRequired": null,
+          "temperatureMode": null,
+          "lengthFt": null
+        },
+        "distanceMiles": 797,
+        "shippers": [
+          {
+            "name": "ACME Distribution",
+            "address": "18101 E Colfax Ave, Aurora, CO 80011, USA",
+            "date": "2025-04-22",
+            "time": "11:00",
+            "endDate": "2025-04-22",
+            "endTime": "11:00",
+            "appointmentType": null,
+            "notes": "Drvr Ld/Unld: No driver loading or unload",
+            "contact": "Main",
+            "phone": "3033402100",
+            "contactEmail": "",
+            "pickupNumber": "",
+            "poNumber": "",
+            "releaseNumber": "",
+            "commodities": [
+              {
+                "label": "",
+                "description": "Food Ingredients",
+                "sku": "",
+                "qty": null,
+                "qtyUnit": "",
+                "alternateQty": null,
+                "alternateQtyUnit": "",
+                "weight": 43502,
+                "weightUnit": "lb",
+                "length": null,
+                "width": null,
+                "height": null,
+                "cube": null,
+                "notes": ""
+              }
+            ]
+          }
+        ],
+        "receivers": [
+          {
+            "name": "Oak Farms Dairy",
+            "address": "3114 S Haskell Ave, Dallas, TX 75223, USA",
+            "date": "2025-04-23",
+            "time": "10:00",
+            "endDate": "2025-04-23",
+            "endTime": "10:00",
+            "appointmentType": null,
+            "notes": "Drvr Ld/Unld: No driver loading or unload",
+            "contact": "Main",
+            "phone": "2148248163",
+            "contactEmail": ""
+          }
+        ],
+        "commodities": [
+          {
+            "label": "",
+            "description": "Food Ingredients",
+            "sku": "",
+            "qty": null,
+            "qtyUnit": "",
+            "alternateQty": null,
+            "alternateQtyUnit": "",
+            "weight": 43502,
+            "weightUnit": "lb",
+            "length": null,
+            "width": null,
+            "height": null,
+            "cube": null,
+            "notes": ""
+          }
+        ],
+        "dispatcher": {
+          "name": "Donald Zook",
+          "phone": "",
+          "email": "Donald.Zook@axlelogistics.com",
+          "notes": ""
+        },
+        "driver": {
+          "name": "Amir",
+          "phone": "(214) 500-8155",
+          "email": "dispatch@sky-expressllc.com",
+          "truckNumber": "3180",
+          "trailerNumber": "909"
+        },
+        "charges": {
+          "linehaul": 747,
+          "fuel": null,
+          "accessorials": null,
+          "total": 747,
+          "currency": "USD",
+          "items": [
+            {
+              "name": "Carrier Freight Pay",
+              "amount": 747
+            }
+          ]
+        },
+        "instructions": {
+          "pickup": "ACME Distribution - Contact: JOHN OR TABATHA - TE: 303-739-2154",
+          "general": [],
+          "trackingRequired": null,
+          "trackingPlatform": null,
+          "documentsEmail": ""
+        },
+        "collaboratorEmails": [
+          "donald.zook@axlelogistics.com",
+          "dispatch@sky-expressllc.com"
+        ]
+      }
+    }
+  },
+  {
+    "file": "CarrierConfirmationTruckload_128512993.pdf",
+    "text": {
+      "status": "SUCCESS",
+      "time": 12011,
+      "tokens": {
+        "input": 3987,
+        "output": 1078,
+        "total": 5065
+      },
+      "cost": 0.020747500000000002,
+      "fields": {
+        "loadNumber": "128512993",
+        "payerInfo": "",
+        "customer": {
+          "companyName": "",
+          "accountsPayableEmail": "",
+          "billingAddress": ""
+        },
+        "broker": {
+          "name": "Logistxs Transport",
+          "address": "117 Mountain Court, Hackettstown, NJ, 07840, USA",
+          "emailForInvoices": "",
+          "phone": ""
+        },
+        "carrier": {
+          "name": "MJ MODERN TRUCKING INC",
+          "mcNumber": "1052633",
+          "usdot": "3312804",
+          "phone": ""
+        },
+        "references": {
+          "referenceId": "128512993",
+          "internalReference": "",
+          "poNumber": "3273869",
+          "bolNumber": "",
+          "quoteDueBy": null,
+          "shipperRef": "3273869",
+          "customerPo": "",
+          "orderNumber": "",
+          "releaseNumber": "",
+          "rateConNumber": "",
+          "pickupNumber": "",
+          "deliveryNumber": "",
+          "orderType": "",
+          "serviceType": ""
+        },
+        "equipment": {
+          "trailerType": "Van",
+          "temperatureRequired": null,
+          "temperatureMode": null,
+          "lengthFt": null
+        },
+        "distanceMiles": null,
+        "shippers": [
+          {
+            "name": "Rema Foods",
+            "address": "2353 US HWY 130, Dayton, NJ, 08810, USA",
+            "date": "2026-04-16",
+            "time": "12:00",
+            "endDate": "2026-04-16",
+            "endTime": "12:00",
+            "appointmentType": "APPT",
+            "notes": "TRAILER MUST BE CLEAN, DRY AND EMPTY WITH NO HOLES, ODORS OR TEARS. MUST SECURE PRODUCT WITH 2 LOAD LOCKS OR STRAPS. ALL ACCESORIAL FEES MUST BE REPORTED IN REAL TIME",
+            "contact": "",
+            "phone": "",
+            "contactEmail": "",
+            "pickupNumber": "",
+            "poNumber": "3273869",
+            "releaseNumber": "",
+            "commodities": [
+              {
+                "label": "DRIED PASTA",
+                "description": "DRIED PASTA",
+                "sku": "",
+                "qty": 1488,
+                "qtyUnit": "cases",
+                "alternateQty": null,
+                "alternateQtyUnit": "",
+                "weight": 41843,
+                "weightUnit": "lbs",
+                "length": null,
+                "width": null,
+                "height": null,
+                "cube": null,
+                "notes": ""
+              }
+            ]
+          }
+        ],
+        "receivers": [
+          {
+            "name": "PFG Milton's",
+            "address": "3501 Old Oakwood Road, Oakwood, GA, 30566, USA",
+            "date": "2026-04-17",
+            "time": "08:30",
+            "endDate": "",
+            "endTime": "",
+            "appointmentType": "APPT",
+            "notes": "MUST SUBMIT COPY OF BOLS WITHIN 24 HOURS OF DELIVERY. ALL OSD'S AND ACCESSORIAL FEES MUST BE REPORTED IN REAL TIME.",
+            "contact": "",
+            "phone": "",
+            "contactEmail": ""
+          }
+        ],
+        "commodities": [],
+        "dispatcher": {
+          "name": "",
+          "phone": "7327669591",
+          "email": "",
+          "notes": "Failure to comply with appointments will result in a penalty of $100.00 Per Appointment."
+        },
+        "driver": {
+          "name": "",
+          "phone": "",
+          "email": "",
+          "truckNumber": "",
+          "trailerNumber": ""
+        },
+        "charges": {
+          "linehaul": 1650,
+          "fuel": 0,
+          "accessorials": null,
+          "total": 1650,
+          "currency": "USD",
+          "items": [
+            {
+              "name": "Carrier base",
+              "amount": 1650
+            },
+            {
+              "name": "Fuel",
+              "amount": 0
+            }
+          ]
+        },
+        "instructions": {
+          "pickup": "TRAILER MUST BE CLEAN, DRY AND EMPTY WITH NO HOLES, ODORS OR TEARS. MUST SECURE PRODUCT WITH 2 LOAD LOCKS OR STRAPS. ALL ACCESORIAL FEES MUST BE REPORTED IN REAL TIME",
+          "general": [
+            "MUST SUBMIT COPY OF BOLS WITHIN 24 HOURS OF DELIVERY. ALL OSD'S AND ACCESSORIAL FEES MUST BE REPORTED IN REAL TIME."
+          ],
+          "trackingRequired": null,
+          "trackingPlatform": null,
+          "documentsEmail": ""
+        },
+        "collaboratorEmails": [
+          "accounting@logistxs.com"
+        ]
+      }
+    },
+    "vision": {
+      "status": "SUCCESS",
+      "time": 15875,
+      "tokens": {
+        "input": 2879,
+        "output": 1072,
+        "total": 3951
+      },
+      "cost": 0.0179175,
+      "fields": {
+        "loadNumber": "128512993",
+        "payerInfo": "Logistxs Transport\n117 Mountain Court\nHACKETTSTOWN, NJ 07840",
+        "customer": {
+          "companyName": "",
+          "accountsPayableEmail": "",
+          "billingAddress": ""
+        },
+        "broker": {
+          "name": "Logistxs Transport",
+          "address": "117 Mountain Court, Hackettstown, NJ 07840, USA",
+          "emailForInvoices": "accounting@logistxs.com",
+          "phone": ""
+        },
+        "carrier": {
+          "name": "MJ MODERN TRUCKING INC",
+          "mcNumber": "1052633",
+          "usdot": "3312804",
+          "phone": ""
+        },
+        "references": {
+          "referenceId": "",
+          "internalReference": "",
+          "poNumber": "",
+          "bolNumber": "",
+          "quoteDueBy": null,
+          "shipperRef": "3273869",
+          "customerPo": "",
+          "orderNumber": "",
+          "releaseNumber": "",
+          "rateConNumber": "",
+          "pickupNumber": "",
+          "deliveryNumber": "",
+          "orderType": "",
+          "serviceType": ""
+        },
+        "equipment": {
+          "trailerType": "Van",
+          "temperatureRequired": null,
+          "temperatureMode": null,
+          "lengthFt": null
+        },
+        "distanceMiles": null,
+        "shippers": [
+          {
+            "name": "Rema Foods",
+            "address": "2353 US HWY 130, Dayton, NJ 08810, USA",
+            "date": "2026-04-16",
+            "time": "12:00",
+            "endDate": "2026-04-16",
+            "endTime": "12:00",
+            "appointmentType": null,
+            "notes": "TRAILER MUST BE CLEAN, DRY AND EMPTY WITH NO HOLES, ODORS OR TEARS. MUST SECURE PRODUCT WITH 2 LOAD LOCKS OR STRAPS. ALL ACCESSORIAL FEES MUST BE REPORTED IN REAL TIME",
+            "contact": "",
+            "phone": "",
+            "contactEmail": "",
+            "pickupNumber": "",
+            "poNumber": "3273869",
+            "releaseNumber": "",
+            "commodities": [
+              {
+                "label": "",
+                "description": "DRIED PASTA",
+                "sku": "",
+                "qty": 1488,
+                "qtyUnit": "Case-PICK",
+                "alternateQty": null,
+                "alternateQtyUnit": "",
+                "weight": 41843,
+                "weightUnit": "lb",
+                "length": null,
+                "width": null,
+                "height": null,
+                "cube": null,
+                "notes": ""
+              }
+            ]
+          }
+        ],
+        "receivers": [
+          {
+            "name": "PFG Milton's",
+            "address": "3501 Old Oakwood Road, Oakwood, GA 30566, USA",
+            "date": "2026-04-17",
+            "time": "08:30",
+            "endDate": "2026-04-17",
+            "endTime": "08:30",
+            "appointmentType": null,
+            "notes": "MUST SUBMIT COPY OF BOLS WITHIN 24 HOURS OF DELIVERY. ALL OSD'S AND ACCESSORIAL FEES MUST BE REPORTED IN REAL TIME.",
+            "contact": "",
+            "phone": "",
+            "contactEmail": ""
+          }
+        ],
+        "commodities": [
+          {
+            "label": "",
+            "description": "DRIED PASTA",
+            "sku": "",
+            "qty": 1488,
+            "qtyUnit": "Case-DROP",
+            "alternateQty": null,
+            "alternateQtyUnit": "",
+            "weight": 41843,
+            "weightUnit": "lb",
+            "length": null,
+            "width": null,
+            "height": null,
+            "cube": null,
+            "notes": ""
+          }
+        ],
+        "dispatcher": {
+          "name": "",
+          "phone": "7327669591",
+          "email": "",
+          "notes": ""
+        },
+        "driver": {
+          "name": "",
+          "phone": "",
+          "email": "",
+          "truckNumber": "",
+          "trailerNumber": ""
+        },
+        "charges": {
+          "linehaul": 1650,
+          "fuel": 0,
+          "accessorials": null,
+          "total": 1650,
+          "currency": "USD",
+          "items": [
+            {
+              "name": "Linehaul",
+              "amount": 1650
+            }
+          ]
+        },
+        "instructions": {
+          "pickup": "",
+          "general": [],
+          "trackingRequired": null,
+          "trackingPlatform": null,
+          "documentsEmail": "accounting@logistxs.com"
+        },
+        "collaboratorEmails": [
+          "accounting@logistxs.com"
+        ]
+      }
+    }
+  },
+  {
+    "file": "ConfirmacionViajeDXT0311251502.pdf",
+    "text": {
+      "status": "SUCCESS",
+      "time": 10778,
+      "tokens": {
+        "input": 3916,
+        "output": 1181,
+        "total": 5097
+      },
+      "cost": 0.0216,
+      "fields": {
+        "loadNumber": "",
+        "payerInfo": "",
+        "customer": {
+          "companyName": "",
+          "accountsPayableEmail": "",
+          "billingAddress": ""
+        },
+        "broker": {
+          "name": "",
+          "address": "",
+          "emailForInvoices": "",
+          "phone": ""
+        },
+        "carrier": {
+          "name": "CARAMEL ENTERPRISE LLC.",
+          "mcNumber": "",
+          "usdot": "",
+          "phone": ""
+        },
+        "references": {
+          "referenceId": "REA0030891",
+          "internalReference": "",
+          "poNumber": "",
+          "bolNumber": "",
+          "quoteDueBy": null,
+          "shipperRef": "",
+          "customerPo": "",
+          "orderNumber": "",
+          "releaseNumber": "",
+          "rateConNumber": "",
+          "pickupNumber": "",
+          "deliveryNumber": "",
+          "orderType": "",
+          "serviceType": ""
+        },
+        "equipment": {
+          "trailerType": "SECO",
+          "temperatureRequired": null,
+          "temperatureMode": null,
+          "lengthFt": null
+        },
+        "distanceMiles": null,
+        "shippers": [
+          {
+            "name": "COPAMEX INDUSTRIAS",
+            "address": "AV. DE LA JUVENTUD #280, COL. CUAHTEMOC, SAN NICOLAS DE LOS GARZA, NUEVO LEON, CP.66450, MEXICO",
+            "date": "2025-10-28",
+            "time": "11:00",
+            "endDate": "",
+            "endTime": "",
+            "appointmentType": "APPT",
+            "notes": "",
+            "contact": "",
+            "phone": "",
+            "contactEmail": "",
+            "pickupNumber": "",
+            "poNumber": "",
+            "releaseNumber": "",
+            "commodities": [
+              {
+                "label": "",
+                "description": "",
+                "sku": "",
+                "qty": null,
+                "qtyUnit": "",
+                "alternateQty": null,
+                "alternateQtyUnit": "",
+                "weight": null,
+                "weightUnit": null,
+                "length": null,
+                "width": null,
+                "height": null,
+                "cube": null,
+                "notes": ""
+              }
+            ]
+          }
+        ],
+        "receivers": [
+          {
+            "name": "NORPARK RI",
+            "address": "FAIRGROUNDS ROAD #132, WEST KINGSTON, RHODE ISLAND, CP.02892, USA",
+            "date": "2025-11-03",
+            "time": "11:00",
+            "endDate": "",
+            "endTime": "",
+            "appointmentType": "APPT",
+            "notes": "",
+            "contact": "",
+            "phone": "",
+            "contactEmail": ""
+          }
+        ],
+        "commodities": [
+          {
+            "label": "",
+            "description": "",
+            "sku": "",
+            "qty": null,
+            "qtyUnit": "",
+            "alternateQty": null,
+            "alternateQtyUnit": "",
+            "weight": null,
+            "weightUnit": null,
+            "length": null,
+            "width": null,
+            "height": null,
+            "cube": null,
+            "notes": ""
+          }
+        ],
+        "dispatcher": {
+          "name": "Natalia Salinas Elizondo",
+          "phone": "",
+          "email": "",
+          "notes": ""
+        },
+        "driver": {
+          "name": "",
+          "phone": "",
+          "email": "",
+          "truckNumber": "",
+          "trailerNumber": "SAB406"
+        },
+        "charges": {
+          "linehaul": 5900,
+          "fuel": null,
+          "accessorials": null,
+          "total": 5900,
+          "currency": "USD",
+          "items": [
+            {
+              "name": "Carrier base",
+              "amount": 5900
+            }
+          ]
+        },
+        "instructions": {
+          "pickup": "",
+          "general": [
+            "La ejecución de este viaje representa la aceptación del contrato general de prestación de servicio de DXT y sus anexos en el cual, además:(1) EL TRANSPORTISTA acuerda no solicitar fletes, aceptar ni proporcionar servicios de transporte (directa o indirectamente) desde o hacia cualquiera de los Clientes (o clientes de los clientes) de DXT Logistica SA de CV (DXT); (2) \"Clientes de DXT\" Significará cualquier remitente, destinatario, consignatario u otra parte para quien DXT haya organizado cualquier transporte de carga e incluye aquellas personas o entidades presentadas por primera vez o de las que el TRANSPORTISTA se enteró por parte de DXT. Si el TRANSPORTISTA viola los términos de este párrafo, DXT tendrá derecho a cobrar/recuperar el 25% del monto que DXT podria haber obtenido por los fletes de todos y cada uno del (los) cliente(s) implicados en un periodo de 12 meses. Además de lo anterior, DXT puede solicitar medidas cautelares y el TRANSPORTISTA será responsable de todos los costos y gastos incurridos por DXT, incluidos, entre otros, los honorarios razonables de los abogados."
+          ],
+          "trackingRequired": null,
+          "trackingPlatform": null,
+          "documentsEmail": "PROVEEDORES@DXT.COM.MX"
+        },
+        "collaboratorEmails": [
+          "proveedores@dxt.com.mx"
+        ]
+      }
+    },
+    "vision": {
+      "status": "SUCCESS",
+      "time": 16583,
+      "tokens": {
+        "input": 1434,
+        "output": 943,
+        "total": 2377
+      },
+      "cost": 0.013014999999999999,
+      "fields": {
+        "loadNumber": "CV07816",
+        "payerInfo": "",
+        "customer": {
+          "companyName": "",
+          "accountsPayableEmail": "",
+          "billingAddress": ""
+        },
+        "broker": {
+          "name": "DXT Logistica",
+          "address": "Humberto Junco Voigt 2307, Zona Valle Oriente, CP 66278 San Pedro Garza Garcia, N.L.",
+          "emailForInvoices": "proveedores@dxt.com.mx",
+          "phone": "8124107497"
+        },
+        "carrier": {
+          "name": "Caramel Enterprise LLC",
+          "mcNumber": "",
+          "usdot": "",
+          "phone": ""
+        },
+        "references": {
+          "referenceId": "REA003891",
+          "internalReference": "",
+          "poNumber": "",
+          "bolNumber": "",
+          "quoteDueBy": null,
+          "shipperRef": "",
+          "customerPo": "",
+          "orderNumber": "",
+          "releaseNumber": "",
+          "rateConNumber": "",
+          "pickupNumber": "",
+          "deliveryNumber": "",
+          "orderType": "",
+          "serviceType": ""
+        },
+        "equipment": {
+          "trailerType": "Exportacion/Trailer/Seco/Exportacion",
+          "temperatureRequired": null,
+          "temperatureMode": null,
+          "lengthFt": null
+        },
+        "distanceMiles": null,
+        "shippers": [
+          {
+            "name": "Copamex Industrias",
+            "address": "Av. de la Juventud #280, Col. Cuahutemoc, CP.66450, San Nicolas de los Garza, Nuevo Leon, Mty, USA",
+            "date": "2025-10-28",
+            "time": "11:00",
+            "endDate": "",
+            "endTime": "",
+            "appointmentType": null,
+            "notes": "",
+            "contact": "",
+            "phone": "",
+            "contactEmail": "",
+            "pickupNumber": "",
+            "poNumber": "",
+            "releaseNumber": "",
+            "commodities": [
+              {
+                "label": "",
+                "description": "",
+                "sku": "",
+                "qty": null,
+                "qtyUnit": "",
+                "alternateQty": null,
+                "alternateQtyUnit": "",
+                "weight": null,
+                "weightUnit": "",
+                "length": null,
+                "width": null,
+                "height": null,
+                "cube": null,
+                "notes": ""
+              }
+            ]
+          }
+        ],
+        "receivers": [
+          {
+            "name": "Norpak RI",
+            "address": "Fairgrounds Road #132, Col., CP.02892, West Kingston, Rhode Island, USA",
+            "date": "2025-11-03",
+            "time": "11:00",
+            "endDate": "",
+            "endTime": "",
+            "appointmentType": null,
+            "notes": "",
+            "contact": "",
+            "phone": "",
+            "contactEmail": ""
+          }
+        ],
+        "commodities": [
+          {
+            "label": "",
+            "description": "",
+            "sku": "",
+            "qty": null,
+            "qtyUnit": "",
+            "alternateQty": null,
+            "alternateQtyUnit": "",
+            "weight": null,
+            "weightUnit": "",
+            "length": null,
+            "width": null,
+            "height": null,
+            "cube": null,
+            "notes": ""
+          }
+        ],
+        "dispatcher": {
+          "name": "",
+          "phone": "",
+          "email": "",
+          "notes": ""
+        },
+        "driver": {
+          "name": "",
+          "phone": "",
+          "email": "",
+          "truckNumber": "",
+          "trailerNumber": "SAB406"
+        },
+        "charges": {
+          "linehaul": 5900,
+          "fuel": null,
+          "accessorials": null,
+          "total": 5900,
+          "currency": "USD",
+          "items": [
+            {
+              "name": "Flete de Proveedor",
+              "amount": 5900
+            }
+          ]
+        },
+        "instructions": {
+          "pickup": "",
+          "general": [],
+          "trackingRequired": null,
+          "trackingPlatform": null,
+          "documentsEmail": ""
+        },
+        "collaboratorEmails": [
+          "proveedores@dxt.com.mx"
+        ]
+      }
+    }
+  },
+  {
+    "file": "Easy RC OC1953.pdf",
+    "text": {
+      "status": "SUCCESS",
+      "time": 14310,
+      "tokens": {
+        "input": 5465,
+        "output": 1096,
+        "total": 6561
+      },
+      "cost": 0.0246225,
+      "fields": {
+        "loadNumber": "OC1953",
+        "payerInfo": "",
+        "customer": {
+          "companyName": "",
+          "accountsPayableEmail": "",
+          "billingAddress": ""
+        },
+        "broker": {
+          "name": "Easy Ease Logistics",
+          "address": "",
+          "emailForInvoices": "",
+          "phone": "+19564001227"
+        },
+        "carrier": {
+          "name": "CARAMEL ENTERPRISE LLC",
+          "mcNumber": "",
+          "usdot": "4111219",
+          "phone": "+19565263965"
+        },
+        "references": {
+          "referenceId": "OC1953",
+          "internalReference": "",
+          "poNumber": "",
+          "bolNumber": "",
+          "quoteDueBy": null,
+          "shipperRef": "",
+          "customerPo": "",
+          "orderNumber": "",
+          "releaseNumber": "",
+          "rateConNumber": "",
+          "pickupNumber": "",
+          "deliveryNumber": "",
+          "orderType": "",
+          "serviceType": ""
+        },
+        "equipment": {
+          "trailerType": "DRY VAN 53'",
+          "temperatureRequired": null,
+          "temperatureMode": null,
+          "lengthFt": null
+        },
+        "distanceMiles": null,
+        "shippers": [
+          {
+            "name": "CROWN FABRICAS MONTERREY, S.A. DE C.V.",
+            "address": "AV ALFONSO REYES 2239 NORTE COL. 15 DE MAYO, AP. 1, MONTERREY, NUEVO LEON, ZIP:64450, USA",
+            "date": "2025-11-10",
+            "time": "08:00",
+            "endDate": "2025-11-10",
+            "endTime": "08:00",
+            "appointmentType": "APPT",
+            "notes": "REPORTARSE CON JUAN GARZA. - 2 GATAS. - CERTIFICADO DE FUMIGACION IMPRESO. - DOCUMENTACIÓN DE OPERADOR (INE, IMSS, ETC) IMPRESA. - LLEVAR EXTINTOR FUNCIONAL. - ALARMA DE REVERSA FUNCIONAL. - OPERADOR CON: CASCO, BOTAS, CHALECO, GUANTES, LENTES DE SEGURIDAD. - TARJETA DE CIRCULACIÓN VIGENTE. - CAJA EN BUEN ESTADO, SIN HOYOS, LLANTAS EN BUEN ESTADO E INFLADAS",
+            "contact": "JUAN GARZA",
+            "phone": "8183286618",
+            "contactEmail": "",
+            "pickupNumber": "0000",
+            "poNumber": "",
+            "releaseNumber": "",
+            "commodities": [
+              {
+                "label": "PACKING",
+                "description": "PACKING",
+                "sku": "",
+                "qty": 32,
+                "qtyUnit": "pallets",
+                "alternateQty": null,
+                "alternateQtyUnit": "",
+                "weight": 40000,
+                "weightUnit": "lbs",
+                "length": null,
+                "width": null,
+                "height": null,
+                "cube": null,
+                "notes": ""
+              }
+            ]
+          }
+        ],
+        "receivers": [
+          {
+            "name": "SMITH FILTER CORPORATION",
+            "address": "41ST STREET COURT, MOLINE, ILLINOIS, ZIP:61265, USA",
+            "date": "",
+            "time": "",
+            "endDate": "",
+            "endTime": "",
+            "appointmentType": null,
+            "notes": "",
+            "contact": "",
+            "phone": "",
+            "contactEmail": ""
+          }
+        ],
+        "commodities": [],
+        "dispatcher": {
+          "name": "Operaciones",
+          "phone": "8140071161",
+          "email": "operaciones@easyeaselogistics.com",
+          "notes": ""
+        },
+        "driver": {
+          "name": "",
+          "phone": "",
+          "email": "",
+          "truckNumber": "",
+          "trailerNumber": ""
+        },
+        "charges": {
+          "linehaul": 3700,
+          "fuel": null,
+          "accessorials": null,
+          "total": 3700,
+          "currency": "USD",
+          "items": [
+            {
+              "name": "Carrier base",
+              "amount": 3700
+            }
+          ]
+        },
+        "instructions": {
+          "pickup": "",
+          "general": [
+            "All Van/Container loads MUST be sealed at origin either by shipper or driver with a seal number noted on bill of lading.",
+            "The driver is responsible for re-sealing the trailer after each pickup/drop on a multi-stop shipment.",
+            "Carrier must be in full compliance with the Food Safety Modernization Act (FSMA), if applicable."
+          ],
+          "trackingRequired": "Yes",
+          "trackingPlatform": null,
+          "documentsEmail": ""
+        },
+        "collaboratorEmails": [
+          "privacy@easyeaselogistics.com"
+        ]
+      }
+    },
+    "vision": {
+      "status": "SUCCESS",
+      "time": 16066,
+      "tokens": {
+        "input": 5089,
+        "output": 1196,
+        "total": 6285
+      },
+      "cost": 0.0246825,
+      "fields": {
+        "loadNumber": "OC1953",
+        "payerInfo": "2112 S SHARY RD STE 40, MISSION, TX 78572",
+        "customer": {
+          "companyName": "",
+          "accountsPayableEmail": "",
+          "billingAddress": ""
+        },
+        "broker": {
+          "name": "Easy Ease Logistics",
+          "address": "",
+          "emailForInvoices": "operaciones@easyeaselogistics.com",
+          "phone": "8140071161"
+        },
+        "carrier": {
+          "name": "CARAMEL ENTERPRISE LLC",
+          "mcNumber": "",
+          "usdot": "4111219",
+          "phone": "19565263965"
+        },
+        "references": {
+          "referenceId": "",
+          "internalReference": "",
+          "poNumber": "",
+          "bolNumber": "",
+          "quoteDueBy": null,
+          "shipperRef": "",
+          "customerPo": "",
+          "orderNumber": "",
+          "releaseNumber": "",
+          "rateConNumber": "",
+          "pickupNumber": "",
+          "deliveryNumber": "",
+          "orderType": "",
+          "serviceType": ""
+        },
+        "equipment": {
+          "trailerType": "DRY VAN 53'",
+          "temperatureRequired": null,
+          "temperatureMode": null,
+          "lengthFt": null
+        },
+        "distanceMiles": null,
+        "shippers": [
+          {
+            "name": "CROWN FABRICAS MONTERREY, S.A. DE C.V.",
+            "address": "MONTERREY, NUEVO LEON, AV ALFONSO REYES 2239 NORTE COL. 15 DE MAYO, AP. 1, ZIP:64450, USA",
+            "date": "2025-11-10",
+            "time": "08:00",
+            "endDate": "2025-11-10",
+            "endTime": "08:00",
+            "appointmentType": null,
+            "notes": "REPORTARSE CON JUAN GARZA. - 2 GATAS. - CERTIFICADO DE FUMIGACION IMPRESO. - DOCUMENTACIÓN DE OPERADOR (INE, IMSS, ETC) IMPRESA. - LLEVAR EXTINTOR FUNCIONAL. - ALARMA DE REVERSA FUNCIONAL. - OPERADOR CON: CASCO, BOTAS, CHALECO, GUANTES, LENTES DE SEGURIDAD. - TARJETA DE CIRCULACIÓN VIGENTE. - CAJA EN BUEN ESTADO, SIN HOYOS, LLANTAS EN BUEN ESTADO E INFLADAS",
+            "contact": "JUAN GARZA",
+            "phone": "8183286618",
+            "contactEmail": "",
+            "pickupNumber": "0000",
+            "poNumber": "",
+            "releaseNumber": "",
+            "commodities": [
+              {
+                "label": "",
+                "description": "PACKING",
+                "sku": "",
+                "qty": 32,
+                "qtyUnit": "PALLETS",
+                "alternateQty": null,
+                "alternateQtyUnit": "",
+                "weight": 40000,
+                "weightUnit": "LB",
+                "length": null,
+                "width": null,
+                "height": null,
+                "cube": null,
+                "notes": ""
+              }
+            ]
+          }
+        ],
+        "receivers": [
+          {
+            "name": "SMITH FILTER CORPORATION",
+            "address": "MOLINE, ILLINOIS, 41ST STREET COURT, ZIP:61265, USA",
+            "date": "",
+            "time": "",
+            "endDate": "",
+            "endTime": "",
+            "appointmentType": null,
+            "notes": "",
+            "contact": "",
+            "phone": "",
+            "contactEmail": ""
+          }
+        ],
+        "commodities": [
+          {
+            "label": "",
+            "description": "PACKING",
+            "sku": "",
+            "qty": 32,
+            "qtyUnit": "PALLETS",
+            "alternateQty": null,
+            "alternateQtyUnit": "",
+            "weight": 40000,
+            "weightUnit": "LB",
+            "length": null,
+            "width": null,
+            "height": null,
+            "cube": null,
+            "notes": ""
+          }
+        ],
+        "dispatcher": {
+          "name": "ROMAN CISNEROS",
+          "phone": "",
+          "email": "",
+          "notes": ""
+        },
+        "driver": {
+          "name": "",
+          "phone": "",
+          "email": "",
+          "truckNumber": "",
+          "trailerNumber": ""
+        },
+        "charges": {
+          "linehaul": 3700,
+          "fuel": null,
+          "accessorials": null,
+          "total": 3700,
+          "currency": "USD",
+          "items": [
+            {
+              "name": "FLAT RATE",
+              "amount": 3700
+            }
+          ]
+        },
+        "instructions": {
+          "pickup": "",
+          "general": [
+            "Carrier must be in full compliance with the Food Safety Modernization Act (FSMA), if applicable.",
+            "By accepting the shipment, Carrier agrees that the driver has consented to receiving text messages and/or phone calls from or on behalf of Easy Ease Logistics."
+          ],
+          "trackingRequired": null,
+          "trackingPlatform": null,
+          "documentsEmail": "operaciones@easyeaselogistics.com"
+        },
+        "collaboratorEmails": [
+          "operaciones@easyeaselogistics.com"
+        ]
+      }
+    }
+  },
+  {
+    "file": "Echo Rate Confirmation 62857286.pdf",
+    "text": {
+      "status": "SUCCESS",
+      "time": 10235,
+      "tokens": {
+        "input": 4669,
+        "output": 1064,
+        "total": 5733
+      },
+      "cost": 0.0223125,
+      "fields": {
+        "loadNumber": "62857286",
+        "payerInfo": "",
+        "customer": {
+          "companyName": "",
+          "accountsPayableEmail": "",
+          "billingAddress": ""
+        },
+        "broker": {
+          "name": "Echo Global Logistics",
+          "address": "",
+          "emailForInvoices": "aptruckload@echo.com",
+          "phone": "3128246483"
+        },
+        "carrier": {
+          "name": "SUNG JIN TRANSPORT LLC",
+          "mcNumber": "1182014",
+          "usdot": "3540608",
+          "phone": ""
+        },
+        "references": {
+          "referenceId": "62857286",
+          "internalReference": "",
+          "poNumber": "",
+          "bolNumber": "",
+          "quoteDueBy": null,
+          "shipperRef": "",
+          "customerPo": "",
+          "orderNumber": "",
+          "releaseNumber": "",
+          "rateConNumber": "",
+          "pickupNumber": "",
+          "deliveryNumber": "",
+          "orderType": "",
+          "serviceType": ""
+        },
+        "equipment": {
+          "trailerType": "Van 53'",
+          "temperatureRequired": null,
+          "temperatureMode": null,
+          "lengthFt": null
+        },
+        "distanceMiles": 365.05,
+        "shippers": [
+          {
+            "name": "HUCK INTERNATIONAL INC",
+            "address": "7101 IMPERIAL DR, Waco, TX, 76712, USA",
+            "date": "2025-05-28",
+            "time": "06:00",
+            "endDate": "2025-05-28",
+            "endTime": "12:00",
+            "appointmentType": "APPT",
+            "notes": "FTL PU HRS 0600-1200; 1700-2100CST LTL PU HRS 1200-1700CST, M-F.",
+            "contact": "",
+            "phone": "2547515205",
+            "contactEmail": "",
+            "pickupNumber": "88625692",
+            "poNumber": "",
+            "releaseNumber": "",
+            "commodities": [
+              {
+                "label": "Auto Parts",
+                "description": "Auto Parts",
+                "sku": "",
+                "qty": 16,
+                "qtyUnit": "pallets",
+                "alternateQty": null,
+                "alternateQtyUnit": "",
+                "weight": 17290,
+                "weightUnit": "lbs",
+                "length": null,
+                "width": null,
+                "height": null,
+                "cube": null,
+                "notes": ""
+              }
+            ]
+          }
+        ],
+        "receivers": [
+          {
+            "name": "FACIL TULSA",
+            "address": "5443 S 108TH E AVE, SUITE 190, Tulsa, OK, 74146, USA",
+            "date": "2025-05-29",
+            "time": "05:30",
+            "endDate": "2025-05-29",
+            "endTime": "16:00",
+            "appointmentType": "APPT",
+            "notes": "Address 2 Line: SUITE 190 CLOSED 7/3-7/7 FOR HOLIDAY",
+            "contact": "",
+            "phone": "9182187134",
+            "contactEmail": ""
+          }
+        ],
+        "commodities": [],
+        "dispatcher": {
+          "name": "",
+          "phone": "",
+          "email": "",
+          "notes": "Electronic & 24/7 tracking required. Fined $100 for non-compliance. All detention must be pre-notified navistar@echo.com or afterhours@echo.com if afterhours."
+        },
+        "driver": {
+          "name": "",
+          "phone": "",
+          "email": "",
+          "truckNumber": "",
+          "trailerNumber": ""
+        },
+        "charges": {
+          "linehaul": 900,
+          "fuel": null,
+          "accessorials": null,
+          "total": 900,
+          "currency": "USD",
+          "items": [
+            {
+              "name": "Carrier base",
+              "amount": 900
+            }
+          ]
+        },
+        "instructions": {
+          "pickup": "0600-1200CST & 1700-2100CST for truckload 1200-1700CST LTL ONLY",
+          "general": [
+            "Electronic Tracking Must Be Provided Throughout Transit",
+            "Report All Issues, Delays and Additional Charges Immediately to 24/7 Driver Support"
+          ],
+          "trackingRequired": "Yes",
+          "trackingPlatform": null,
+          "documentsEmail": "instapay@echo.com"
+        },
+        "collaboratorEmails": [
+          "alejandro.angulo@echo.com",
+          "navistar@echo.com",
+          "afterhours@echo.com",
+          "instapay@echo.com"
+        ]
+      }
+    },
+    "vision": {
+      "status": "SUCCESS",
+      "time": 18040,
+      "tokens": {
+        "input": 2199,
+        "output": 1078,
+        "total": 3277
+      },
+      "cost": 0.0162775,
+      "fields": {
+        "loadNumber": "62857286",
+        "payerInfo": "",
+        "customer": {
+          "companyName": "",
+          "accountsPayableEmail": "",
+          "billingAddress": ""
+        },
+        "broker": {
+          "name": "Echo Global Logistics",
+          "address": "",
+          "emailForInvoices": "aptruckload@echo.com",
+          "phone": "3128246483"
+        },
+        "carrier": {
+          "name": "SUNG JIN TRANSPORT LLC",
+          "mcNumber": "1182014",
+          "usdot": "3540608",
+          "phone": ""
+        },
+        "references": {
+          "referenceId": "",
+          "internalReference": "",
+          "poNumber": "",
+          "bolNumber": "",
+          "quoteDueBy": null,
+          "shipperRef": "",
+          "customerPo": "",
+          "orderNumber": "",
+          "releaseNumber": "",
+          "rateConNumber": "",
+          "pickupNumber": "",
+          "deliveryNumber": "",
+          "orderType": "",
+          "serviceType": "TL"
+        },
+        "equipment": {
+          "trailerType": "Van 53'",
+          "temperatureRequired": null,
+          "temperatureMode": null,
+          "lengthFt": null
+        },
+        "distanceMiles": 365,
+        "shippers": [
+          {
+            "name": "HUCK INTERNATIONAL INC-39768X1",
+            "address": "7101 IMPERIAL DR, WACO, TX 76712, USA",
+            "date": "2025-05-28",
+            "time": "06:00",
+            "endDate": "2025-05-28",
+            "endTime": "12:00",
+            "appointmentType": null,
+            "notes": "",
+            "contact": "",
+            "phone": "",
+            "contactEmail": "",
+            "pickupNumber": "88625692, 88625692",
+            "poNumber": "",
+            "releaseNumber": "",
+            "commodities": [
+              {
+                "label": "",
+                "description": "Auto Parts",
+                "sku": "",
+                "qty": 0,
+                "qtyUnit": "Pieces",
+                "alternateQty": 16,
+                "alternateQtyUnit": "Pallets",
+                "weight": 17290,
+                "weightUnit": "lbs",
+                "length": null,
+                "width": null,
+                "height": null,
+                "cube": null,
+                "notes": ""
+              }
+            ]
+          }
+        ],
+        "receivers": [
+          {
+            "name": "FACIL TULSA",
+            "address": "5443 S 108TH E AVE, SUITE 190, TULSA, OK 74146, USA",
+            "date": "2025-05-29",
+            "time": "05:30",
+            "endDate": "2025-05-29",
+            "endTime": "16:00",
+            "appointmentType": null,
+            "notes": "Address 2 Line: SUITE 190 CLOSED 7/3-7/7 FOR HOLIDAY",
+            "contact": "",
+            "phone": "",
+            "contactEmail": ""
+          }
+        ],
+        "commodities": [
+          {
+            "label": "",
+            "description": "Auto Parts",
+            "sku": "",
+            "qty": 0,
+            "qtyUnit": "Pieces",
+            "alternateQty": 16,
+            "alternateQtyUnit": "Pallets",
+            "weight": 17290,
+            "weightUnit": "lbs",
+            "length": null,
+            "width": null,
+            "height": null,
+            "cube": null,
+            "notes": ""
+          }
+        ],
+        "dispatcher": {
+          "name": "",
+          "phone": "",
+          "email": "",
+          "notes": ""
+        },
+        "driver": {
+          "name": "",
+          "phone": "",
+          "email": "",
+          "truckNumber": "",
+          "trailerNumber": ""
+        },
+        "charges": {
+          "linehaul": 900,
+          "fuel": null,
+          "accessorials": null,
+          "total": 900,
+          "currency": "USD",
+          "items": [
+            {
+              "name": "Line Haul",
+              "amount": 900
+            }
+          ]
+        },
+        "instructions": {
+          "pickup": "0600-1200CST & 1700-2100CST for truckload 1200-1700CST LTL ONLY FTL PU HRS 0600-1200; 1700-2100CST LTL PU HRS 1200-1700CST, M-F.",
+          "general": [],
+          "trackingRequired": true,
+          "trackingPlatform": "",
+          "documentsEmail": "afterhours@echo.com"
+        },
+        "collaboratorEmails": [
+          "alejandro.angulo@echo.com",
+          "aptruckload@echo.com",
+          "instapay@echo.com",
+          "afterhours@echo.com"
+        ]
+      }
+    }
+  },
+  {
+    "file": "L260409-00024 (1).pdf",
+    "text": {
+      "status": "SUCCESS",
+      "time": 11070,
+      "tokens": {
+        "input": 5161,
+        "output": 1179,
+        "total": 6340
+      },
+      "cost": 0.0246925,
+      "fields": {
+        "loadNumber": "L260409-00024",
+        "payerInfo": "",
+        "customer": {
+          "companyName": "",
+          "accountsPayableEmail": "",
+          "billingAddress": ""
+        },
+        "broker": {
+          "name": "ODW LTS, LLC.",
+          "address": "345 High Street Suite #600, Hamilton, OH, 45011, USA",
+          "emailForInvoices": "ltsapinvoices@odwlogistics.com",
+          "phone": "8009783168"
+        },
+        "carrier": {
+          "name": "WINSTON HAULING LLC",
+          "mcNumber": "",
+          "usdot": "",
+          "phone": "7405645229"
+        },
+        "references": {
+          "referenceId": "L260409-00024",
+          "internalReference": "",
+          "poNumber": "",
+          "bolNumber": "",
+          "quoteDueBy": null,
+          "shipperRef": "",
+          "customerPo": "",
+          "orderNumber": "",
+          "releaseNumber": "",
+          "rateConNumber": "",
+          "pickupNumber": "",
+          "deliveryNumber": "",
+          "orderType": "",
+          "serviceType": ""
+        },
+        "equipment": {
+          "trailerType": "53 Dry Van",
+          "temperatureRequired": null,
+          "temperatureMode": null,
+          "lengthFt": null
+        },
+        "distanceMiles": null,
+        "shippers": [
+          {
+            "name": "ODW Logistics RIC1",
+            "address": "6100 Collings Dr, Lockbourne, OH, 43137, USA",
+            "date": "2026-04-15",
+            "time": "09:01",
+            "endDate": "2026-04-15",
+            "endTime": "09:01",
+            "appointmentType": "APPT",
+            "notes": "FourKites Tracking Required|PU#: L260409-00024; 53 DRY VAN/FOOD GRADE/DRY CLEAN AND ODOR FREE; LOAD SEAL NEEDS TO BE APPLIED PER DELIVERY; SEAL TO REMAIN IN TACT THROUGH TRANSIT, SEAL TO BE BROKEN BY CONSIGNEE ONLY; **MINIMUM OF 4 STRAPS AND/OR 2 LOAD LOCKS REQUIRED PER STOP FOR SECURING FREIGHT / FOURKITES TRACKING REQUIRED",
+            "contact": "",
+            "phone": "",
+            "contactEmail": "",
+            "pickupNumber": "L260409-00024",
+            "poNumber": "",
+            "releaseNumber": "",
+            "commodities": [
+              {
+                "label": "",
+                "description": "",
+                "sku": "",
+                "qty": 27,
+                "qtyUnit": "pallets",
+                "alternateQty": null,
+                "alternateQtyUnit": "",
+                "weight": 35700,
+                "weightUnit": "lbs",
+                "length": null,
+                "width": null,
+                "height": null,
+                "cube": null,
+                "notes": ""
+              }
+            ]
+          }
+        ],
+        "receivers": [
+          {
+            "name": "PUBLIX LOW VELOCITY WHSE",
+            "address": "445 Hurricane Trail, Dacula, GA, 30019, USA",
+            "date": "2026-04-16",
+            "time": "09:30",
+            "endDate": "2026-04-16",
+            "endTime": "09:30",
+            "appointmentType": "APPT",
+            "notes": "Del appt 4/16 @0930 . // Additional fee applies on any missed or rescheduled delivery",
+            "contact": "",
+            "phone": "",
+            "contactEmail": ""
+          }
+        ],
+        "commodities": [],
+        "dispatcher": {
+          "name": "Levi Winston",
+          "phone": "",
+          "email": "winstonhauls@gmail.com",
+          "notes": "Driver must ensure seal is in tact and shipper signs BOL with Seal # before leaving shipper facility. Consignee must break seal and sign BOL as Seal Intact."
+        },
+        "driver": {
+          "name": "",
+          "phone": "",
+          "email": "",
+          "truckNumber": "",
+          "trailerNumber": ""
+        },
+        "charges": {
+          "linehaul": 2000,
+          "fuel": null,
+          "accessorials": 100,
+          "total": 2100,
+          "currency": "USD",
+          "items": [
+            {
+              "name": "Carrier base",
+              "amount": 2000
+            },
+            {
+              "name": "FourKites Tracking",
+              "amount": 100
+            }
+          ]
+        },
+        "instructions": {
+          "pickup": "",
+          "general": [
+            "FourKites Tracking Required|PU#: L260409-00024; 53 DRY VAN/FOOD GRADE/DRY CLEAN AND ODOR FREE; LOAD SEAL NEEDS TO BE APPLIED PER DELIVERY; SEAL TO REMAIN IN TACT THROUGH TRANSIT, SEAL TO BE BROKEN BY CONSIGNEE ONLY; **MINIMUM OF 4 STRAPS AND/OR 2 LOAD LOCKS REQUIRED PER STOP FOR SECURING FREIGHT / FOURKITES TRACKING REQUIRED"
+          ],
+          "trackingRequired": "Yes",
+          "trackingPlatform": "FourKites",
+          "documentsEmail": ""
+        },
+        "collaboratorEmails": []
+      }
+    },
+    "vision": {
+      "status": "SUCCESS",
+      "time": 16174,
+      "tokens": {
+        "input": 2199,
+        "output": 1141,
+        "total": 3340
+      },
+      "cost": 0.0169075,
+      "fields": {
+        "loadNumber": "L260409-00024",
+        "payerInfo": "",
+        "customer": {
+          "companyName": "",
+          "accountsPayableEmail": "",
+          "billingAddress": ""
+        },
+        "broker": {
+          "name": "ODW LTS, LLC.",
+          "address": "345 High Street Suite #600, Hamilton, OH 45011, USA",
+          "emailForInvoices": "ltsAPInvoices@odwlogistics.com",
+          "phone": "8009783168"
+        },
+        "carrier": {
+          "name": "WINSTON HAULING LLC",
+          "mcNumber": "",
+          "usdot": "",
+          "phone": "7405645229"
+        },
+        "references": {
+          "referenceId": "",
+          "internalReference": "",
+          "poNumber": "",
+          "bolNumber": "",
+          "quoteDueBy": null,
+          "shipperRef": "",
+          "customerPo": "",
+          "orderNumber": "",
+          "releaseNumber": "",
+          "rateConNumber": "",
+          "pickupNumber": "",
+          "deliveryNumber": "",
+          "orderType": "",
+          "serviceType": ""
+        },
+        "equipment": {
+          "trailerType": "53 Dry Van",
+          "temperatureRequired": null,
+          "temperatureMode": null,
+          "lengthFt": null
+        },
+        "distanceMiles": null,
+        "shippers": [
+          {
+            "name": "ODW Logistics RIC1",
+            "address": "6100 Collings Dr, Lockbourne, OH 43137, USA",
+            "date": "2026-04-15",
+            "time": "09:01",
+            "endDate": "2026-04-15",
+            "endTime": "09:01",
+            "appointmentType": null,
+            "notes": "FourKites Tracking RequiredPU#: L260409-00024; 53 DRY VAN/FOOD GRADE/DRY CLEAN AND ODOR FREE; LOAD SEAL NEEDS TO BE APPLIED PER DELIVERY; SEAL TO REMAIN IN TACT THROUGH TRANSIT; SEAL TO BE BROKEN BY CONSIGNEE ONLY; **MINIMUM OF 4 STRAPS AND/OR 2 LOAD LOCKS REQUIRED PER STOP FOR SECURING FREIGHT / FOURKITES TRACKING REQUIRED",
+            "contact": "",
+            "phone": "",
+            "contactEmail": "",
+            "pickupNumber": "45510",
+            "poNumber": "",
+            "releaseNumber": "",
+            "commodities": [
+              {
+                "label": "",
+                "description": "",
+                "sku": "",
+                "qty": null,
+                "qtyUnit": "",
+                "alternateQty": null,
+                "alternateQtyUnit": "",
+                "weight": 35700,
+                "weightUnit": "LB",
+                "length": null,
+                "width": null,
+                "height": null,
+                "cube": null,
+                "notes": ""
+              }
+            ]
+          }
+        ],
+        "receivers": [
+          {
+            "name": "PUBLIX LOW VELOCITY WHSE",
+            "address": "445 HURRICANE TRAIL, DACULA, GA 30019, USA",
+            "date": "2026-04-16",
+            "time": "09:30",
+            "endDate": "2026-04-16",
+            "endTime": "09:30",
+            "appointmentType": null,
+            "notes": "Del appt 4/16 @0930 . // Additional fee applies on any missed or rescheduled delivery",
+            "contact": "",
+            "phone": "",
+            "contactEmail": ""
+          }
+        ],
+        "commodities": [
+          {
+            "label": "",
+            "description": "",
+            "sku": "",
+            "qty": null,
+            "qtyUnit": "",
+            "alternateQty": null,
+            "alternateQtyUnit": "",
+            "weight": 35700,
+            "weightUnit": "LB",
+            "length": null,
+            "width": null,
+            "height": null,
+            "cube": null,
+            "notes": ""
+          }
+        ],
+        "dispatcher": {
+          "name": "Levi Winston - WINSTON HAULING LLC",
+          "phone": "",
+          "email": "winstonhauls@gmail.com",
+          "notes": ""
+        },
+        "driver": {
+          "name": "",
+          "phone": "",
+          "email": "",
+          "truckNumber": "",
+          "trailerNumber": ""
+        },
+        "charges": {
+          "linehaul": 2000,
+          "fuel": null,
+          "accessorials": 100,
+          "total": 2100,
+          "currency": "USD",
+          "items": [
+            {
+              "name": "Freight",
+              "amount": 2000
+            },
+            {
+              "name": "FourKites Tracking",
+              "amount": 100
+            }
+          ]
+        },
+        "instructions": {
+          "pickup": "",
+          "general": [],
+          "trackingRequired": null,
+          "trackingPlatform": null,
+          "documentsEmail": "ltsAPInvoices@odwlogistics.com"
+        },
+        "collaboratorEmails": [
+          "winstonhauls@gmail.com",
+          "ltsAPInvoices@odwlogistics.com"
+        ]
+      }
+    }
+  },
+  {
+    "file": "RC CARAMEL.pdf",
+    "text": {
+      "status": "SUCCESS",
+      "time": 9103,
+      "tokens": {
+        "input": 3463,
+        "output": 1027,
+        "total": 4490
+      },
+      "cost": 0.0189275,
+      "fields": {
+        "loadNumber": "",
+        "payerInfo": "",
+        "customer": {
+          "companyName": "SOLERO TECHNOLOGIES LLC",
+          "accountsPayableEmail": "",
+          "billingAddress": ""
+        },
+        "broker": {
+          "name": "IT NORTH AMERICA INC",
+          "address": "3802 COPPERBEND, Laredo, TX, 78045, USA",
+          "emailForInvoices": "",
+          "phone": ""
+        },
+        "carrier": {
+          "name": "CARAMEL ENTERPRISE LLC",
+          "mcNumber": "4111219",
+          "usdot": "",
+          "phone": ""
+        },
+        "references": {
+          "referenceId": "IT14-0311M-1224",
+          "internalReference": "",
+          "poNumber": "",
+          "bolNumber": "",
+          "quoteDueBy": null,
+          "shipperRef": "",
+          "customerPo": "",
+          "orderNumber": "IT14-0311M-1224",
+          "releaseNumber": "",
+          "rateConNumber": "",
+          "pickupNumber": "",
+          "deliveryNumber": "",
+          "orderType": "",
+          "serviceType": ""
+        },
+        "equipment": {
+          "trailerType": "",
+          "temperatureRequired": null,
+          "temperatureMode": null,
+          "lengthFt": null
+        },
+        "distanceMiles": null,
+        "shippers": [
+          {
+            "name": "IT CARRIERS NUEVO LAREDO",
+            "address": "CALLE PALAU 1101 COL BAYITO, Nuevo Laredo, TAMPS, 88000, Mexico",
+            "date": "2025-11-04",
+            "time": "",
+            "endDate": "",
+            "endTime": "",
+            "appointmentType": null,
+            "notes": "",
+            "contact": "",
+            "phone": "",
+            "contactEmail": "",
+            "pickupNumber": "",
+            "poNumber": "",
+            "releaseNumber": "",
+            "commodities": [
+              {
+                "label": "",
+                "description": "",
+                "sku": "",
+                "qty": null,
+                "qtyUnit": "",
+                "alternateQty": null,
+                "alternateQtyUnit": "",
+                "weight": null,
+                "weightUnit": null,
+                "length": null,
+                "width": null,
+                "height": null,
+                "cube": null,
+                "notes": ""
+              }
+            ]
+          }
+        ],
+        "receivers": [
+          {
+            "name": "",
+            "address": "600 HWY 32 EAST, Water Valley, MS, 38965, USA",
+            "date": "2025-11-05",
+            "time": "",
+            "endDate": "",
+            "endTime": "",
+            "appointmentType": null,
+            "notes": "",
+            "contact": "",
+            "phone": "",
+            "contactEmail": ""
+          }
+        ],
+        "commodities": [
+          {
+            "label": "",
+            "description": "",
+            "sku": "",
+            "qty": null,
+            "qtyUnit": "",
+            "alternateQty": null,
+            "alternateQtyUnit": "",
+            "weight": null,
+            "weightUnit": null,
+            "length": null,
+            "width": null,
+            "height": null,
+            "cube": null,
+            "notes": ""
+          }
+        ],
+        "dispatcher": {
+          "name": "ABRAHAM RIVERA",
+          "phone": "",
+          "email": "",
+          "notes": ""
+        },
+        "driver": {
+          "name": "ROMAN",
+          "phone": "",
+          "email": "",
+          "truckNumber": "",
+          "trailerNumber": ""
+        },
+        "charges": {
+          "linehaul": 2100,
+          "fuel": null,
+          "accessorials": null,
+          "total": 2100,
+          "currency": "USD",
+          "items": [
+            {
+              "name": "Carrier base",
+              "amount": 2100
+            }
+          ]
+        },
+        "instructions": {
+          "pickup": "",
+          "general": [
+            "Charges may apply for late pick-ups and deliveries.",
+            "It is the driver’s responsibility to ensure that the load is safe, secure and legal for transport.",
+            "All Trailers must be clean, empty and odor free with no holes.",
+            "Any deviation from dispatch instructions must be called in immediately.",
+            "All products SHORTAGES must be reported at time of PICKUP. Failure to report will result in additional charges.",
+            "Re-brokering, assigning or interlining of this shipment will void our obligation to pay your freight."
+          ],
+          "trackingRequired": null,
+          "trackingPlatform": null,
+          "documentsEmail": ""
+        },
+        "collaboratorEmails": []
+      }
+    },
+    "vision": {
+      "status": "SUCCESS",
+      "time": 13855,
+      "tokens": {
+        "input": 1434,
+        "output": 1062,
+        "total": 2496
+      },
+      "cost": 0.014204999999999999,
+      "fields": {
+        "loadNumber": "",
+        "payerInfo": "",
+        "customer": {
+          "companyName": "IT NORTH AMERICA INC",
+          "accountsPayableEmail": "",
+          "billingAddress": "3802 COPPERBEND, LAREDO, TX 78045, USA"
+        },
+        "broker": {
+          "name": "",
+          "address": "",
+          "emailForInvoices": "",
+          "phone": ""
+        },
+        "carrier": {
+          "name": "CARAMEL ENTERPRISE LLC",
+          "mcNumber": "4111219",
+          "usdot": "",
+          "phone": ""
+        },
+        "references": {
+          "referenceId": "",
+          "internalReference": "",
+          "poNumber": "",
+          "bolNumber": "",
+          "quoteDueBy": null,
+          "shipperRef": "",
+          "customerPo": "",
+          "orderNumber": "IT14-0311M-1224",
+          "releaseNumber": "",
+          "rateConNumber": "",
+          "pickupNumber": "",
+          "deliveryNumber": "",
+          "orderType": "",
+          "serviceType": ""
+        },
+        "equipment": {
+          "trailerType": "",
+          "temperatureRequired": null,
+          "temperatureMode": null,
+          "lengthFt": null
+        },
+        "distanceMiles": null,
+        "shippers": [
+          {
+            "name": "IT CARRIERS NUEVO LAREDO",
+            "address": "CALLE PALAU 1101 COL BAYITO, NUEVO LAREDO, TAMPS 88000, USA",
+            "date": "2025-11-04",
+            "time": "",
+            "endDate": "",
+            "endTime": "",
+            "appointmentType": null,
+            "notes": "",
+            "contact": "",
+            "phone": "",
+            "contactEmail": "",
+            "pickupNumber": "",
+            "poNumber": "",
+            "releaseNumber": "",
+            "commodities": [
+              {
+                "label": "",
+                "description": "",
+                "sku": "",
+                "qty": null,
+                "qtyUnit": "",
+                "alternateQty": null,
+                "alternateQtyUnit": "",
+                "weight": null,
+                "weightUnit": "",
+                "length": null,
+                "width": null,
+                "height": null,
+                "cube": null,
+                "notes": ""
+              }
+            ]
+          }
+        ],
+        "receivers": [
+          {
+            "name": "SOLERO TECHNOLOGIES LLC",
+            "address": "600 HWY 32 EAST, WATER VALLEY, MS 38965, USA",
+            "date": "2025-11-05",
+            "time": "",
+            "endDate": "",
+            "endTime": "",
+            "appointmentType": null,
+            "notes": "",
+            "contact": "",
+            "phone": "",
+            "contactEmail": ""
+          }
+        ],
+        "commodities": [
+          {
+            "label": "",
+            "description": "",
+            "sku": "",
+            "qty": null,
+            "qtyUnit": "",
+            "alternateQty": null,
+            "alternateQtyUnit": "",
+            "weight": null,
+            "weightUnit": "",
+            "length": null,
+            "width": null,
+            "height": null,
+            "cube": null,
+            "notes": ""
+          }
+        ],
+        "dispatcher": {
+          "name": "ABRAHAM RIVERA",
+          "phone": "",
+          "email": "",
+          "notes": ""
+        },
+        "driver": {
+          "name": "ROMAN",
+          "phone": "",
+          "email": "",
+          "truckNumber": "",
+          "trailerNumber": ""
+        },
+        "charges": {
+          "linehaul": 2100,
+          "fuel": 0,
+          "accessorials": 0,
+          "total": 2100,
+          "currency": "USD",
+          "items": [
+            {
+              "name": "linehaul",
+              "amount": 2100
+            },
+            {
+              "name": "fuel",
+              "amount": 0
+            },
+            {
+              "name": "accessorials",
+              "amount": 0
+            }
+          ]
+        },
+        "instructions": {
+          "pickup": "",
+          "general": [
+            "Charges may apply for late pick-ups and deliveries.",
+            "It is the driver’s responsibility to ensure that the load is safe, secure and legal for transport.",
+            "All Trailers must be clean, empty and odor free with no holes.",
+            "Any deviation from dispatch instructions must be called in immediately.",
+            "All products SHORTAGES must be reported at time of PICKUP. Failure to report will result in additional charges.",
+            "Re-brokering, assigning or interlining of this shipment will void our obligation to pay your freight."
+          ],
+          "trackingRequired": null,
+          "trackingPlatform": null,
+          "documentsEmail": ""
+        },
+        "collaboratorEmails": []
+      }
+    }
+  },
+  {
+    "file": "RateConfirmation (29).pdf",
+    "text": {
+      "status": "SUCCESS",
+      "time": 6209,
+      "tokens": {
+        "input": 6485,
+        "output": 435,
+        "total": 6920
+      },
+      "cost": 0.0205625,
+      "fields": {
+        "loadNumber": "",
+        "payerInfo": "",
+        "customer": {
+          "companyName": "",
+          "accountsPayableEmail": "",
+          "billingAddress": ""
+        },
+        "broker": {
+          "name": "",
+          "address": "",
+          "emailForInvoices": "",
+          "phone": ""
+        },
+        "carrier": {
+          "name": "",
+          "mcNumber": "",
+          "usdot": "",
+          "phone": ""
+        },
+        "references": {
+          "referenceId": "",
+          "internalReference": "",
+          "poNumber": "",
+          "bolNumber": "",
+          "quoteDueBy": null,
+          "shipperRef": "",
+          "customerPo": "",
+          "orderNumber": "",
+          "releaseNumber": "",
+          "rateConNumber": "",
+          "pickupNumber": "",
+          "deliveryNumber": "",
+          "orderType": "",
+          "serviceType": ""
+        },
+        "equipment": {
+          "trailerType": "",
+          "temperatureRequired": null,
+          "temperatureMode": null,
+          "lengthFt": null
+        },
+        "distanceMiles": null,
+        "shippers": [],
+        "receivers": [],
+        "commodities": [],
+        "dispatcher": {
+          "name": "",
+          "phone": "",
+          "email": "",
+          "notes": ""
+        },
+        "driver": {
+          "name": "",
+          "phone": "",
+          "email": "",
+          "truckNumber": "",
+          "trailerNumber": ""
+        },
+        "charges": {
+          "linehaul": null,
+          "fuel": null,
+          "accessorials": null,
+          "total": null,
+          "currency": "USD",
+          "items": [
+            {
+              "name": "",
+              "amount": null
+            }
+          ]
+        },
+        "instructions": {
+          "pickup": "",
+          "general": [],
+          "trackingRequired": null,
+          "trackingPlatform": null,
+          "documentsEmail": ""
+        },
+        "collaboratorEmails": [
+          "winstonhauls@gmail.com"
+        ]
+      }
+    },
+    "vision": {
+      "status": "SUCCESS",
+      "time": 27387,
+      "tokens": {
+        "input": 2964,
+        "output": 1170,
+        "total": 4134
+      },
+      "cost": 0.019110000000000002,
+      "fields": {
+        "loadNumber": "1687238",
+        "payerInfo": "",
+        "customer": {
+          "companyName": "R2 LOGISTICS",
+          "accountsPayableEmail": "",
+          "billingAddress": "7643 GATE PARKWAY SUITE 104 PMB 150, JACKSONVILLE FL 32256"
+        },
+        "broker": {
+          "name": "CMH TEAM-A",
+          "address": "",
+          "emailForInvoices": "cmhteama@r2logistics.com",
+          "phone": "6148996350"
+        },
+        "carrier": {
+          "name": "WINSTON HAULING",
+          "mcNumber": "1336689",
+          "usdot": "3757994",
+          "phone": "7405645229"
+        },
+        "references": {
+          "referenceId": "162280540",
+          "internalReference": "",
+          "poNumber": "",
+          "bolNumber": "",
+          "quoteDueBy": null,
+          "shipperRef": "162280540",
+          "customerPo": "",
+          "orderNumber": "",
+          "releaseNumber": "",
+          "rateConNumber": "",
+          "pickupNumber": "",
+          "deliveryNumber": "",
+          "orderType": "",
+          "serviceType": ""
+        },
+        "equipment": {
+          "trailerType": "53' VAN",
+          "temperatureRequired": null,
+          "temperatureMode": null,
+          "lengthFt": null
+        },
+        "distanceMiles": 305,
+        "shippers": [
+          {
+            "name": "THE SCOTTS COMPANY - O",
+            "address": "1220 SHROCK ROAD, ORRVILLE OH 44667",
+            "date": "2026-04-10",
+            "time": "07:00",
+            "endDate": "",
+            "endTime": "",
+            "appointmentType": null,
+            "notes": "BY 1500",
+            "contact": "",
+            "phone": "",
+            "contactEmail": "",
+            "pickupNumber": "",
+            "poNumber": "",
+            "releaseNumber": "",
+            "commodities": [
+              {
+                "label": "",
+                "description": "",
+                "sku": "",
+                "qty": 1001,
+                "qtyUnit": "Pieces",
+                "alternateQty": null,
+                "alternateQtyUnit": "",
+                "weight": 29554,
+                "weightUnit": "Weight",
+                "length": null,
+                "width": null,
+                "height": null,
+                "cube": null,
+                "notes": ""
+              }
+            ]
+          }
+        ],
+        "receivers": [
+          {
+            "name": "AMAZON.COM SERVICES IN",
+            "address": "165 BUSINESS BLVD, CLEAR BROOK VA 22624",
+            "date": "2026-04-12",
+            "time": "09:00",
+            "endDate": "",
+            "endTime": "",
+            "appointmentType": null,
+            "notes": "",
+            "contact": "",
+            "phone": "",
+            "contactEmail": ""
+          }
+        ],
+        "commodities": [
+          {
+            "label": "",
+            "description": "",
+            "sku": "",
+            "qty": 1001,
+            "qtyUnit": "Pieces",
+            "alternateQty": null,
+            "alternateQtyUnit": "",
+            "weight": 29554,
+            "weightUnit": "Weight",
+            "length": null,
+            "width": null,
+            "height": null,
+            "cube": null,
+            "notes": ""
+          }
+        ],
+        "dispatcher": {
+          "name": "",
+          "phone": "",
+          "email": "",
+          "notes": ""
+        },
+        "driver": {
+          "name": "ANGELO",
+          "phone": "6144727194",
+          "email": "",
+          "truckNumber": "",
+          "trailerNumber": "ZZZZ"
+        },
+        "charges": {
+          "linehaul": 1800,
+          "fuel": null,
+          "accessorials": null,
+          "total": 1800,
+          "currency": "USD",
+          "items": [
+            {
+              "name": "LINE HAUL RATE",
+              "amount": 1800
+            }
+          ]
+        },
+        "instructions": {
+          "pickup": "",
+          "general": [
+            "MacroPoint is required. Pickup numbers will not be given until the driver is actively tracking via truck number or phone number.",
+            "Drivers must accept MacroPoint tracking prior to being dispatched.",
+            "Tracking must be maintained throughout the duration of the shipment.",
+            "Failure to do so could void your eligibility for a TONU and detention.",
+            "***ALL LOADS TENDERED WITH THIS RATE CONFIRMATION MUST BE INVOICED THROUGH EPAYMANAGER.COM. DO NOT INVOICE THIS LOAD IN OTM***",
+            "Remarks: Please submit ALL pages of the POD with a receiver signature within 72 hours of delivery.",
+            "***CARRIERS MUST REPORT DETENTION 1 HOUR PRIOR TO OCCURANCE AND MUST SUBMIT LUMPER RECEIPT WITHIN 24-48 HOURS OF DELIVERY IF THERE IS ONE. FAILURE TO DO SO WILL RESULT IN NON-PAYMENT OF CHARGES.***"
+          ],
+          "trackingRequired": true,
+          "trackingPlatform": "MacroPoint",
+          "documentsEmail": ""
+        },
+        "collaboratorEmails": [
+          "cmhteama@r2logistics.com",
+          "winstonhauls@gmail.com"
+        ]
+      }
+    }
+  },
+  {
+    "file": "RateConfirmation31396622.pdf",
+    "text": {
+      "status": "SUCCESS",
+      "time": 15370,
+      "tokens": {
+        "input": 4147,
+        "output": 925,
+        "total": 5072
+      },
+      "cost": 0.0196175,
+      "fields": {
+        "loadNumber": "31396622",
+        "payerInfo": "",
+        "customer": {
+          "companyName": "",
+          "accountsPayableEmail": "",
+          "billingAddress": ""
+        },
+        "broker": {
+          "name": "GlobalTranz",
+          "address": "",
+          "emailForInvoices": "tlinvoices@globaltranz.com",
+          "phone": "8887202739"
+        },
+        "carrier": {
+          "name": "RAPID RUNS TRANSPORTATION LLC",
+          "mcNumber": "1043774",
+          "usdot": "",
+          "phone": "7328777885"
+        },
+        "references": {
+          "referenceId": "",
+          "internalReference": "",
+          "poNumber": "",
+          "bolNumber": "",
+          "quoteDueBy": null,
+          "shipperRef": "",
+          "customerPo": "",
+          "orderNumber": "",
+          "releaseNumber": "",
+          "rateConNumber": "",
+          "pickupNumber": "",
+          "deliveryNumber": "",
+          "orderType": "",
+          "serviceType": "Full"
+        },
+        "equipment": {
+          "trailerType": "Van",
+          "temperatureRequired": null,
+          "temperatureMode": null,
+          "lengthFt": 53
+        },
+        "distanceMiles": null,
+        "shippers": [
+          {
+            "name": "SingleCut",
+            "address": "6 Fairchild Square, Clifton Park, NY, 12065, USA",
+            "date": "2025-08-25",
+            "time": "08:00",
+            "endDate": "",
+            "endTime": "10:00",
+            "appointmentType": "APPT",
+            "notes": "MUST have a pallet jack on the truck to help unload.",
+            "contact": "Dan",
+            "phone": "6198232335",
+            "contactEmail": "",
+            "pickupNumber": "",
+            "poNumber": "",
+            "releaseNumber": "",
+            "commodities": [
+              {
+                "label": "beer",
+                "description": "beer",
+                "sku": "",
+                "qty": 19,
+                "qtyUnit": "pallets",
+                "alternateQty": 19,
+                "alternateQtyUnit": "cases",
+                "weight": 38000,
+                "weightUnit": "lbs",
+                "length": null,
+                "width": null,
+                "height": null,
+                "cube": null,
+                "notes": ""
+              }
+            ]
+          }
+        ],
+        "receivers": [
+          {
+            "name": "Flagship Brewery",
+            "address": "30 Minthorne Street, Staten Island, NY, 10301, USA",
+            "date": "2025-08-25",
+            "time": "09:00",
+            "endDate": "",
+            "endTime": "15:00",
+            "appointmentType": "APPT",
+            "notes": "",
+            "contact": "Doug Williams",
+            "phone": "2014015917",
+            "contactEmail": ""
+          }
+        ],
+        "commodities": [],
+        "dispatcher": {
+          "name": "Justin",
+          "phone": "7328777885",
+          "email": "rapidrunstransport@gmail.com",
+          "notes": ""
+        },
+        "driver": {
+          "name": "Justin Hughes",
+          "phone": "7328777885",
+          "email": "",
+          "truckNumber": "",
+          "trailerNumber": "1981"
+        },
+        "charges": {
+          "linehaul": 1300,
+          "fuel": null,
+          "accessorials": null,
+          "total": 1300,
+          "currency": "USD",
+          "items": [
+            {
+              "name": "Carrier base",
+              "amount": 1300
+            }
+          ]
+        },
+        "instructions": {
+          "pickup": "",
+          "general": [
+            "MUST have a pallet jack on the truck to help unload."
+          ],
+          "trackingRequired": null,
+          "trackingPlatform": null,
+          "documentsEmail": "tlinvoices@globaltranz.com"
+        },
+        "collaboratorEmails": [
+          "a.ortiz@globaltranz.com",
+          "aptlrequests@globaltranz.com"
+        ]
+      }
+    },
+    "vision": {
+      "status": "SUCCESS",
+      "time": 18451,
+      "tokens": {
+        "input": 2879,
+        "output": 1061,
+        "total": 3940
+      },
+      "cost": 0.0178075,
+      "fields": {
+        "loadNumber": "31396622",
+        "payerInfo": "",
+        "customer": {
+          "companyName": "",
+          "accountsPayableEmail": "",
+          "billingAddress": ""
+        },
+        "broker": {
+          "name": "GlobalTranz",
+          "address": "",
+          "emailForInvoices": "tlinvoices@globaltranz.com",
+          "phone": "8887202739"
+        },
+        "carrier": {
+          "name": "Rapid Runs Transportation LLC",
+          "mcNumber": "1043774",
+          "usdot": "",
+          "phone": "7328777885"
+        },
+        "references": {
+          "referenceId": "",
+          "internalReference": "",
+          "poNumber": "",
+          "bolNumber": "",
+          "quoteDueBy": null,
+          "shipperRef": "",
+          "customerPo": "",
+          "orderNumber": "",
+          "releaseNumber": "",
+          "rateConNumber": "",
+          "pickupNumber": "",
+          "deliveryNumber": "",
+          "orderType": "",
+          "serviceType": ""
+        },
+        "equipment": {
+          "trailerType": "Van",
+          "temperatureRequired": null,
+          "temperatureMode": null,
+          "lengthFt": 53
+        },
+        "distanceMiles": null,
+        "shippers": [
+          {
+            "name": "SingleCut",
+            "address": "6 Fairchild Square, Clifton Park, NY 12065, USA",
+            "date": "2025-08-25",
+            "time": "08:00",
+            "endDate": "2025-08-25",
+            "endTime": "10:00",
+            "appointmentType": null,
+            "notes": "",
+            "contact": "Dan",
+            "phone": "6198232335",
+            "contactEmail": "",
+            "pickupNumber": "",
+            "poNumber": "",
+            "releaseNumber": "",
+            "commodities": [
+              {
+                "label": "",
+                "description": "beer",
+                "sku": "",
+                "qty": 19,
+                "qtyUnit": "pallets",
+                "alternateQty": 19,
+                "alternateQtyUnit": "pieces",
+                "weight": 38000,
+                "weightUnit": "lbs",
+                "length": null,
+                "width": null,
+                "height": null,
+                "cube": null,
+                "notes": ""
+              }
+            ]
+          }
+        ],
+        "receivers": [
+          {
+            "name": "Flagship Brewery",
+            "address": "30 Minthorne Street, Staten Island, NY 10301, USA",
+            "date": "2025-08-25",
+            "time": "09:00",
+            "endDate": "2025-08-25",
+            "endTime": "15:00",
+            "appointmentType": null,
+            "notes": "",
+            "contact": "Doug Williams",
+            "phone": "2014015917",
+            "contactEmail": ""
+          }
+        ],
+        "commodities": [
+          {
+            "label": "",
+            "description": "beer",
+            "sku": "",
+            "qty": 19,
+            "qtyUnit": "pallets",
+            "alternateQty": 19,
+            "alternateQtyUnit": "pieces",
+            "weight": 38000,
+            "weightUnit": "lbs",
+            "length": null,
+            "width": null,
+            "height": null,
+            "cube": null,
+            "notes": ""
+          }
+        ],
+        "dispatcher": {
+          "name": "Justin",
+          "phone": "7328777885",
+          "email": "rapidrunstransport@gmail.com",
+          "notes": ""
+        },
+        "driver": {
+          "name": "Justin Hughes",
+          "phone": "7328777885",
+          "email": "",
+          "truckNumber": "",
+          "trailerNumber": "1981"
+        },
+        "charges": {
+          "linehaul": 1300,
+          "fuel": null,
+          "accessorials": null,
+          "total": 1300,
+          "currency": "USD",
+          "items": [
+            {
+              "name": "linehaul",
+              "amount": 1300
+            }
+          ]
+        },
+        "instructions": {
+          "pickup": "MUST have a pallet jack on the truck to help unload.",
+          "general": [
+            "Be checked in to shipper OR receiver by the appointment time.",
+            "Submit all proof of detention, accessorial, incidentals within 24-48 hours of delivery."
+          ],
+          "trackingRequired": null,
+          "trackingPlatform": null,
+          "documentsEmail": "tlinvoices@globaltranz.com"
+        },
+        "collaboratorEmails": [
+          "a.ortiz@globaltranz.com",
+          "tlinvoices@globaltranz.com",
+          "aptlrequests@globaltranz.com",
+          "rapidrunstransport@gmail.com"
+        ]
+      }
+    }
+  },
+  {
+    "file": "tpcRateCon$-715-32388-57275-20260416-173443-240...",
+    "text": {
+      "status": "SUCCESS",
+      "time": 11821,
+      "tokens": {
+        "input": 3885,
+        "output": 1256,
+        "total": 5141
+      },
+      "cost": 0.0222725,
+      "fields": {
+        "loadNumber": "LoadKL100142",
+        "payerInfo": "",
+        "customer": {
+          "companyName": "",
+          "accountsPayableEmail": "",
+          "billingAddress": ""
+        },
+        "broker": {
+          "name": "Kilian Logistics",
+          "address": "34102 Nature Rd, Foley, MN 56329, USA",
+          "emailForInvoices": "accounting@kilianlogistics.com",
+          "phone": "3202512420"
+        },
+        "carrier": {
+          "name": "Load One, LLC",
+          "mcNumber": "",
+          "usdot": "",
+          "phone": ""
+        },
+        "references": {
+          "referenceId": "TripTR100500",
+          "internalReference": "",
+          "poNumber": "",
+          "bolNumber": "",
+          "quoteDueBy": null,
+          "shipperRef": "",
+          "customerPo": "",
+          "orderNumber": "",
+          "releaseNumber": "",
+          "rateConNumber": "",
+          "pickupNumber": "",
+          "deliveryNumber": "",
+          "orderType": "",
+          "serviceType": ""
+        },
+        "equipment": {
+          "trailerType": "Step-Conestoga",
+          "temperatureRequired": null,
+          "temperatureMode": null,
+          "lengthFt": null
+        },
+        "distanceMiles": null,
+        "shippers": [
+          {
+            "name": "Fritz Winter North America",
+            "address": "1 Fritz Winter Dr, Franklin, KY 42134, USA",
+            "date": "2026-04-16",
+            "time": "06:00",
+            "endDate": "2026-04-17",
+            "endTime": "16:00",
+            "appointmentType": "APPT",
+            "notes": "",
+            "contact": "Brad",
+            "phone": "5737952305",
+            "contactEmail": "",
+            "pickupNumber": "",
+            "poNumber": "",
+            "releaseNumber": "",
+            "commodities": [
+              {
+                "label": "Foundry Equipment - Conestoga",
+                "description": "Foundry Equipment - Conestoga",
+                "sku": "",
+                "qty": null,
+                "qtyUnit": "",
+                "alternateQty": null,
+                "alternateQtyUnit": "",
+                "weight": 30000,
+                "weightUnit": "lbs",
+                "length": null,
+                "width": null,
+                "height": null,
+                "cube": null,
+                "notes": ""
+              }
+            ]
+          }
+        ],
+        "receivers": [
+          {
+            "name": "Waupaca Foundry Plant 0",
+            "address": "107 Tower Rd, Waupaca, WI 54981, USA",
+            "date": "2026-04-17",
+            "time": "",
+            "endDate": "2026-04-18",
+            "endTime": "",
+            "appointmentType": "FCFS",
+            "notes": "You're heading to Plant 0 | Receiving is open 24 hours FCFS if the guys there can unload you or else the crew of guys working this job are typically working from 6:00am-6:00pm",
+            "contact": "Don Furham",
+            "phone": "",
+            "contactEmail": ""
+          }
+        ],
+        "commodities": [],
+        "dispatcher": {
+          "name": "",
+          "phone": "",
+          "email": "",
+          "notes": "All PODs, invoices, and accessorial charge requests must be submitted to KILIAN LOGISTICS within 24 hours after completing a job. Tracking is mandatory for all shipments over 200 miles. If tracking is not accepted before pickup, the Carrier may be removed from the load. Any detention time at a shipper or receiver must be reported to Kilian at least 30 minutes before detention begins to allow time for customer approval. A time-stamped BOL is required to request detention compensation. Please forward it to your Kilian contact. Detention time starts after 3 hours. All claims must be settled within 30 days. Kilian reserves the right to deduct the claim amount from the Carrier's freight payment. By signing below, the Carrier affirms that it is legally qualified to provide the agreed-upon transportation services and holds liability insurance of at least $1,000,000 and cargo insurance of at least $100,000. POD must be received within 24 Hours, To receive payment, the Carrier must submit a signed POD and invoice. Payments are made within 30 days of receiving the necessary paperwork. Please send to Accounting@kilianlogistics.com. Double brokering is prohibited. If the Carrier re-brokers or double brokers a load, their freight payment will be voided, and they may be liable for damages to Kilian. Lumper receipts must be submitted within 24 hours for reimbursement. Please send them to your direct Kilian contact. In the event of missed appointment time $100 fine will be deducted from the agreed rate."
+        },
+        "driver": {
+          "name": "",
+          "phone": "",
+          "email": "",
+          "truckNumber": "",
+          "trailerNumber": ""
+        },
+        "charges": {
+          "linehaul": 2500,
+          "fuel": null,
+          "accessorials": null,
+          "total": 2500,
+          "currency": "USD",
+          "items": [
+            {
+              "name": "Carrier base",
+              "amount": 2500
+            }
+          ]
+        },
+        "instructions": {
+          "pickup": "",
+          "general": [
+            "All drivers must count and verify the shipment before loading. If any discrepancies are found, the driver must contact Kilian before departing."
+          ],
+          "trackingRequired": "Yes",
+          "trackingPlatform": null,
+          "documentsEmail": ""
+        },
+        "collaboratorEmails": [
+          "specialized@load1.com"
+        ]
+      }
+    },
+    "vision": {
+      "status": "SUCCESS",
+      "time": 24825,
+      "tokens": {
+        "input": 2199,
+        "output": 1430,
+        "total": 3629
+      },
+      "cost": 0.0197975,
+      "fields": {
+        "loadNumber": "KL100142",
+        "payerInfo": "KILIAN LOGISTICS\n34102 NATURE RD\nFoley, MN 56329\nACCOUNTING@KILIANLOGISTICS.COM\n3202512420",
+        "customer": {
+          "companyName": "",
+          "accountsPayableEmail": "",
+          "billingAddress": ""
+        },
+        "broker": {
+          "name": "Kilian Logistics",
+          "address": "34102 Nature Rd, Foley, MN 56329, USA",
+          "emailForInvoices": "accounting@kilianlogistics.com",
+          "phone": "3202512420"
+        },
+        "carrier": {
+          "name": "Load One, LLC",
+          "mcNumber": "",
+          "usdot": "",
+          "phone": ""
+        },
+        "references": {
+          "referenceId": "TR100500",
+          "internalReference": "",
+          "poNumber": "",
+          "bolNumber": "",
+          "quoteDueBy": null,
+          "shipperRef": "",
+          "customerPo": "",
+          "orderNumber": "",
+          "releaseNumber": "",
+          "rateConNumber": "",
+          "pickupNumber": "",
+          "deliveryNumber": "",
+          "orderType": "",
+          "serviceType": ""
+        },
+        "equipment": {
+          "trailerType": "",
+          "temperatureRequired": null,
+          "temperatureMode": null,
+          "lengthFt": null
+        },
+        "distanceMiles": null,
+        "shippers": [
+          {
+            "name": "Fritz Winter North America",
+            "address": "1 Fritz Winter Dr, Franklin, KY 42134, USA",
+            "date": "2026-04-16",
+            "time": "06:00",
+            "endDate": "2026-04-17",
+            "endTime": "16:00",
+            "appointmentType": null,
+            "notes": "",
+            "contact": "Brad",
+            "phone": "5737952305",
+            "contactEmail": "",
+            "pickupNumber": "",
+            "poNumber": "",
+            "releaseNumber": "",
+            "commodities": [
+              {
+                "label": "",
+                "description": "Foundry Equipment - Conestoga",
+                "sku": "",
+                "qty": 1,
+                "qtyUnit": "",
+                "alternateQty": null,
+                "alternateQtyUnit": "",
+                "weight": 30000,
+                "weightUnit": "lb",
+                "length": null,
+                "width": null,
+                "height": null,
+                "cube": null,
+                "notes": ""
+              }
+            ]
+          }
+        ],
+        "receivers": [
+          {
+            "name": "Waupaca Foundry Plant 0",
+            "address": "107 Tower Rd, Waupaca, WI 54981, USA",
+            "date": "2026-04-17",
+            "time": "",
+            "endDate": "2026-04-18",
+            "endTime": "",
+            "appointmentType": null,
+            "notes": "You're heading to Plant 0 | Receiving is open 24 hours FCFS if the guys there can unload you or else the crew of guys working this job are typically working from 6:00am-6:00pm",
+            "contact": "Don Furham",
+            "phone": "",
+            "contactEmail": ""
+          }
+        ],
+        "commodities": [
+          {
+            "label": "",
+            "description": "Foundry Equipment - Conestoga",
+            "sku": "",
+            "qty": 1,
+            "qtyUnit": "",
+            "alternateQty": null,
+            "alternateQtyUnit": "",
+            "weight": 30000,
+            "weightUnit": "lb",
+            "length": null,
+            "width": null,
+            "height": null,
+            "cube": null,
+            "notes": ""
+          }
+        ],
+        "dispatcher": {
+          "name": "",
+          "phone": "",
+          "email": "",
+          "notes": ""
+        },
+        "driver": {
+          "name": "",
+          "phone": "",
+          "email": "",
+          "truckNumber": "",
+          "trailerNumber": ""
+        },
+        "charges": {
+          "linehaul": 2500,
+          "fuel": null,
+          "accessorials": null,
+          "total": 2500,
+          "currency": "USD",
+          "items": [
+            {
+              "name": "Hauling Fee",
+              "amount": 2500
+            }
+          ]
+        },
+        "instructions": {
+          "pickup": "",
+          "general": [
+            "All drivers must count and verify the shipment before loading.",
+            "If any discrepancies are found, the driver must contact Kilian before departing.",
+            "Tracking is mandatory for all shipments over 200 miles.",
+            "If tracking is not accepted before pickup, the Carrier may be removed from the load.",
+            "Any detention time at a shipper or receiver must be reported to Kilian at least 30 minutes before detention begins to allow time for customer approval.",
+            "A time-stamped BOL is required to request detention compensation.",
+            "Detention time starts after 3 hours.",
+            "Given the prevalence of fraud in the industry (such as email phishing, phone spoofing, etc.), we remind all carriers to verify any load changes directly with your designated Kilian contact.",
+            "All claims must be settled within 30 days.",
+            "Kilian reserves the right to deduct the claim amount from the Carrier's freight payment.",
+            "By signing below, the Carrier affirms that it is legally qualified to provide the agreed-upon transportation services and holds liability insurance of at least $1,000,000 and cargo insurance of at least $100,000.",
+            "POD must be received within 24 hours.",
+            "To receive payment, the Carrier must submit a signed POD and invoice.",
+            "Payments are made within 30 days of receiving the necessary paperwork.",
+            "Please send to Accounting@kilianlogistics.com.",
+            "Double brokering is prohibited.",
+            "If the Carrier re-brokers or double brokers a load, their freight payment will be voided, and they may be liable for damages to Kilian.",
+            "Lumper receipts must be submitted within 24 hours for reimbursement.",
+            "Please send them to your direct Kilian contact.",
+            "In the event of missed appointment time $100 fine will be deducted from the agreed rate."
+          ],
+          "trackingRequired": true,
+          "trackingPlatform": null,
+          "documentsEmail": "accounting@kilianlogistics.com"
+        },
+        "collaboratorEmails": [
+          "accounting@kilianlogistics.com",
+          "specialized@load1.com"
+        ]
+      }
+    }
+  }
+]
